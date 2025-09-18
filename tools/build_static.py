@@ -600,7 +600,32 @@ def generate_map_index(menu_links) -> str:
       const tri=el('path',{ d:'M 0 0 L -10 -5 L -10 5 Z', fill:stroke, stroke:'none' }); ah.appendChild(tri); root.appendChild(ah);
       if(!window.__arrowheads) window.__arrowheads=[];
       window.__arrowheads.push({ el:ah, x:midx, y:midy, rot:theta, bl:len }); }
-    if(cities.length>1){ const pts=cities.map(c=>projection([c.lon,c.lat])); for(let i=1;i<pts.length;i++){ const [px,py]=pts[i-1]; const [x,y]=pts[i]; const dst=cities[i]; let cScale=0.15, cSign=1; if(dst.city==='havana'||dst.city==='havana2'){ cScale=0.3; cSign=-1; } if(dst.city==='capetown'||dst.city==='varanasi'||dst.city==='darwin'||dst.city==='sydney'){ cScale=Math.max(cScale,0.22);} drawSegment(px,py,x,y,'#22d3ee', cScale, cSign);} }
+    if(cities.length>1){
+      const pts=cities.map(c=>projection([c.lon,c.lat]));
+      for(let i=1;i<pts.length;i++){
+        const [px,py]=pts[i-1];
+        const [x,y]=pts[i];
+        const src=cities[i-1];
+        const dst=cities[i];
+        let cScale=0.15, cSign=1;
+        // Existing exceptions
+        if(dst.city==='havana'||dst.city==='havana2'){ cScale=0.3; cSign=-1; }
+        if(dst.city==='capetown'||dst.city==='varanasi'||dst.city==='darwin'||dst.city==='sydney'){ cScale=Math.max(cScale,0.22);}
+        // Curved outward for specific pairs requested
+        const pair = src.city+'>'+dst.city;
+        if(
+          pair==='mendoza>saopaulo' ||
+          pair==='natal>rio' ||
+          pair==='zanzibar>capetown' ||
+          pair==='katmandou>bali' ||
+          pair==='bali>hongkong'
+        ){
+          cScale = Math.max(cScale, 0.28);
+          cSign = -1; // curve toward the exterior/opposite side
+        }
+        drawSegment(px,py,x,y,'#22d3ee', cScale, cSign);
+      }
+    }
     const paris=[2.3522,48.8566], madrid=[-3.7038,40.4168], capetown=[18.4241,-33.9249]; const [px1,py1]=projection(paris), [mx1,my1]=projection(madrid), [cx1,cy1]=projection(capetown); drawSegment(px1,py1,mx1,my1,'#22d3ee'); drawSegment(cx1,cy1,px1,py1,'#22d3ee');
     window.__markers=[]; const inv0=1/scale; cities.forEach((c,i)=>{ const [x,y]=projection([c.lon,c.lat]); const mg=el('g',{transform:'translate('+x.toFixed(1)+' '+y.toFixed(1)+') scale('+inv0.toFixed(3)+')'}); const circ=el('circle',{cx:0,cy:0,r:4,fill:(i===0?'#22d3ee':'#3b82f6'),stroke:'#0ea5e9','stroke-width':1,'pointer-events':'none'}); const label=el('text',{x:6,y:-6,fill:'#cbd5e1','font-size':'12px','text-anchor':'start','dominant-baseline':'ideographic','pointer-events':'none'}); label.textContent=c.label; mg.appendChild(circ); mg.appendChild(label); const hit=el('circle',{cx:0,cy:0,r:8,fill:'transparent'}); hit.style.cursor='pointer'; hit.addEventListener('click',()=>{ window.location.href=c.url; }); mg.appendChild(hit); root.appendChild(mg); window.__markers.push({el:mg,x:x,y:y}); });
     // Add Paris marker explicitly
