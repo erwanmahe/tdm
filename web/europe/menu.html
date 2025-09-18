@@ -1,0 +1,20 @@
+<div class="menu">
+ 	<a href="/">Home</a><br/>
+
+<?php
+	$path = $PHP_SELF;
+	$tmp = dirname($path);
+	$file = substr($tmp,1); 
+	if ($file == "") {
+	}
+	else {
+		echo("<a href=\"/album.php?album=" . $file . "/photos&lang=fr\">Photos</a><br/>");
+		echo("<br>");
+	}
+?>
+ 	<a href="/europe/madrid">Madrid</a><br/>
+ 	<a href="/amsud/lima">Amerique du Sud</a><br/>
+  	<a href="/ausnz/auckland">Australie/NZ</a><br/>
+  	<a href="/asie/bangkok">Asie</a><br/>
+	<a href="/~erwanadm">Bookmarks</a><br/>
+ </div> 
