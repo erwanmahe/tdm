@@ -592,7 +592,7 @@ def generate_map_index(menu_links) -> str:
     const world = window.WORLD; const land = topojson.feature(world, world.objects.land); const landPath = el('path', { d: path(land), fill:'#334155', stroke:'#1f2937', 'stroke-width':1 }); root.appendChild(landPath);
     const defs=el('defs'); const marker=el('marker',{id:'arrow',markerWidth:6,markerHeight:6,refX:6,refY:3,orient:'auto',markerUnits:'strokeWidth'}); const arrowPath=el('path',{d:'M 0 0 L 6 3 L 0 6 z', fill:'#22d3ee'}); marker.appendChild(arrowPath); defs.appendChild(marker); svg.appendChild(defs);
     const cities = __CITIES__;
-    function drawSegment(px,py,x,y,stroke='#22d3ee',curveScale=0.15,curveSign=1){ const dx=x-px, dy=y-py; const len=Math.hypot(dx,dy); const LONG=200; let d,midx,midy; if(len>LONG){ const mx=(px+x)/2, my=(py+y)/2; const nx=-dy/len, ny=dx/len; const ox=mx+nx*len*curveScale*curveSign, oy=my+ny*len*curveScale*curveSign; d='M '+px.toFixed(1)+' '+py.toFixed(1)+' Q '+ox.toFixed(1)+' '+oy.toFixed(1)+' '+x.toFixed(1)+' '+y.toFixed(1); midx=(px+2*ox+x)/4; midy=(py+2*oy+y)/4; } else { d='M '+px.toFixed(1)+' '+py.toFixed(1)+' L '+x.toFixed(1)+' '+y.toFixed(1); midx=(px+x)/2; midy=(py+y)/2; }
+    function drawSegment(px,py,x,y,stroke='#22d3ee',curveScale=0.15,curveSign=1, forceCurve=false){ const dx=x-px, dy=y-py; const len=Math.hypot(dx,dy); const LONG=100; let d,midx,midy; if(forceCurve || len>LONG){ const mx=(px+x)/2, my=(py+y)/2; const nx=-dy/len, ny=dx/len; const ox=mx+nx*len*curveScale*curveSign, oy=my+ny*len*curveScale*curveSign; d='M '+px.toFixed(1)+' '+py.toFixed(1)+' Q '+ox.toFixed(1)+' '+oy.toFixed(1)+' '+x.toFixed(1)+' '+y.toFixed(1); midx=(px+2*ox+x)/4; midy=(py+2*oy+y)/4; } else { d='M '+px.toFixed(1)+' '+py.toFixed(1)+' L '+x.toFixed(1)+' '+y.toFixed(1); midx=(px+x)/2; midy=(py+y)/2; }
       const seg=el('path',{d, fill:'none', stroke, 'stroke-width':2, 'stroke-dasharray':'4 4', 'stroke-linecap':'round', 'vector-effect':'non-scaling-stroke'});
       root.appendChild(seg);
       const ux=dx/len, uy=dy/len; const theta=Math.atan2(uy,ux)*180/Math.PI; const invs=(1/scale).toFixed(3);
@@ -600,6 +600,7 @@ def generate_map_index(menu_links) -> str:
       const tri=el('path',{ d:'M 0 0 L -10 -5 L -10 5 Z', fill:stroke, stroke:'none' }); ah.appendChild(tri); root.appendChild(ah);
       if(!window.__arrowheads) window.__arrowheads=[];
       window.__arrowheads.push({ el:ah, x:midx, y:midy, rot:theta, bl:len }); }
+    function drawStraight(px,py,x,y,stroke='#22d3ee'){ const d='M '+px.toFixed(1)+' '+py.toFixed(1)+' L '+x.toFixed(1)+' '+y.toFixed(1); const seg=el('path',{d, fill:'none', stroke, 'stroke-width':2, 'stroke-dasharray':'4 4', 'stroke-linecap':'round', 'vector-effect':'non-scaling-stroke'}); root.appendChild(seg); }
     if(cities.length>1){
       const pts=cities.map(c=>projection([c.lon,c.lat]));
       for(let i=1;i<pts.length;i++){
@@ -613,17 +614,65 @@ def generate_map_index(menu_links) -> str:
         if(dst.city==='capetown'||dst.city==='varanasi'||dst.city==='darwin'||dst.city==='sydney'){ cScale=Math.max(cScale,0.22);}
         // Curved outward for specific pairs requested
         const pair = src.city+'>'+dst.city;
-        if(
+        const MUST_CURVE = (
           pair==='mendoza>saopaulo' ||
           pair==='natal>rio' ||
           pair==='zanzibar>capetown' ||
           pair==='katmandou>bali' ||
           pair==='bali>hongkong'
-        ){
+        );
+        if(MUST_CURVE){
           cScale = Math.max(cScale, 0.28);
           cSign = -1; // curve toward the exterior/opposite side
         }
-        drawSegment(px,py,x,y,'#22d3ee', cScale, cSign);
+        drawSegment(px,py,x,y,'#22d3ee', cScale, cSign, MUST_CURVE);
+      }
+      // Add wrap-around straight link: split the true straight line Havana↔Auckland at the appropriate border (x=0 or x=width)
+      function findCity(name){ return cities.find(c=>c.city===name); }
+      const H = findCity('havana') || findCity('havana2');
+      const A = findCity('auckland');
+      if(H || A){
+        const hp = H ? projection([H.lon,H.lat]) : null;
+        const ap = A ? projection([A.lon,A.lat]) : null;
+        if(hp && ap){
+          const hx = hp[0], hy = hp[1];
+          const ax = ap[0], ay = ap[1];
+          // Choose a horizontal shift k∈{-1,0,1} so that ax' = ax + k*width is closest to hx
+          function bestShift(ax, hx, W){
+            let bestK = 0, bestD = Math.abs((ax) - hx);
+            for(const k of [-1,1]){ const d=Math.abs((ax + k*W) - hx); if(d<bestD){ bestD=d; bestK=k; } }
+            return bestK;
+          }
+          const k = bestShift(ax, hx, width);
+          if(k === 0){
+            // No wrap needed, draw direct straight link
+            drawStraight(hx,hy,ax,ay,'#22d3ee');
+          } else if(k === -1){
+            // Shift Auckland left by width, split at x=0
+            const axs = ax - width;
+            const denom = (axs - hx);
+            if(Math.abs(denom) > 1e-6){
+              const t0 = (0 - hx) / denom;
+              const y0 = hy + (ay - hy) * t0; // intersection Y at x=0
+              // Left piece: Havana → west border
+              drawStraight(hx,hy,0,y0,'#22d3ee');
+              // Right piece: east border → Auckland
+              drawStraight(width,y0,ax,ay,'#22d3ee');
+            }
+          } else { // k === +1
+            // Shift Auckland right by width, split at x=width
+            const axs = ax + width;
+            const denom = (axs - hx);
+            if(Math.abs(denom) > 1e-6){
+              const t1 = (width - hx) / denom;
+              const y1 = hy + (ay - hy) * t1; // intersection Y at x=width
+              // Right piece: Havana → east border
+              drawStraight(hx,hy,width,y1,'#22d3ee');
+              // Left piece: west border → Auckland
+              drawStraight(0,y1,ax,ay,'#22d3ee');
+            }
+          }
+        }
       }
     }
     const paris=[2.3522,48.8566], madrid=[-3.7038,40.4168], capetown=[18.4241,-33.9249]; const [px1,py1]=projection(paris), [mx1,my1]=projection(madrid), [cx1,cy1]=projection(capetown); drawSegment(px1,py1,mx1,my1,'#22d3ee'); drawSegment(cx1,cy1,px1,py1,'#22d3ee');
