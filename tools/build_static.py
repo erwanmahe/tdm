@@ -418,7 +418,6 @@ BASE_HEAD = """
 BASE_SIDEBAR_START = """
   <aside class=\"sidebar\">
     <a class=\"brand\" href=\"{rel}index.html\">Voyages</a>
-    <div class=\"version\">Static Edition</div>
     <nav class=\"nav\">
 """
 BASE_SIDEBAR_END = """
@@ -430,7 +429,6 @@ BASE_CONTENT_START = """
   <main class=\"content\">
 """
 BASE_CONTENT_END = """
-    <div class=\"footer\">Généré en statique à partir du site d'origine.</div>
   </main>
 </div>
 </body>
