@@ -1,182 +1,483 @@
-
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Foz d'Iguazu</title>
-  <link rel="stylesheet" href="../../assets/styles.css" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foz d'Iguazu</title>
+    <link rel="stylesheet" href="../../assets/styles.css" />
 
-  <!-- Theme fonts and styles -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Material+Icons&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../assets/theme.css" />
-  <link rel="stylesheet" href="../../assets/lightbox.css" />
+    <!-- Theme fonts and styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Material+Icons&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/theme.css" />
+    <link rel="stylesheet" href="../../assets/lightbox.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <a class="brand" href="../../index.html">Voyages</a>
+        <nav class="nav">
+          <div
+            class="section"
+            style="
+              margin: 10px 0 6px;
+              color: #9ca3af;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            europe
+          </div>
+          <a class="link" href="../../europe/madrid/index.html">Madrid</a>
+          <div
+            class="section"
+            style="
+              margin: 10px 0 6px;
+              color: #9ca3af;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            amsud
+          </div>
+          <a class="link" href="../../amsud/lima/index.html">Lima</a>
+          <a class="link" href="../../amsud/pisco/index.html">Pisco</a>
+          <a class="link" href="../../amsud/arequipa/index.html">Arequipa</a>
+          <a class="link" href="../../amsud/cuzco/index.html">Cuzco</a>
+          <a class="link" href="../../amsud/lapaz/index.html">La Paz</a>
+          <a class="link" href="../../amsud/uyuni/index.html">Uyuni</a>
+          <a class="link" href="../../amsud/salta/index.html">Salta</a>
+          <a class="link" href="../../amsud/mendoza/index.html">Mendoza</a>
+          <a class="link" href="../../amsud/saopaulo/index.html">São Paulo</a>
+          <a class="link" href="../../amsud/parati/index.html">Parati</a>
+          <a class="link" href="../../amsud/rio/index.html">Rio</a>
+          <a class="link" href="../../amsud/salvador/index.html">Salvador</a>
+          <a class="link" href="../../amsud/olinda/index.html">Olinda</a>
+          <a class="link" href="../../amsud/natal/index.html">Natal</a>
+          <a class="link" href="../../amsud/rio2/index.html">Rio</a>
+          <a class="link active" href="../../amsud/iguazu/index.html"
+            >Foz de Iguazu</a
+          >
+          <a class="link" href="../../amsud/buenosaires/index.html"
+            >Buenos Aires</a
+          >
+          <a class="link" href="../../amsud/santiago/index.html">Santiago</a>
+          <a class="link" href="../../amsud/havana/index.html">La Havane</a>
+          <a class="link" href="../../amsud/cienfuegos/index.html"
+            >Cienfuegos</a
+          >
+          <a class="link" href="../../amsud/havana2/index.html">La Havane</a>
+          <div
+            class="section"
+            style="
+              margin: 10px 0 6px;
+              color: #9ca3af;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            ausnz
+          </div>
+          <a class="link" href="../../ausnz/auckland/index.html">Auckland</a>
+          <a class="link" href="../../ausnz/tororua/index.html">Tororua</a>
+          <a class="link" href="../../ausnz/taupo/index.html">Taupo</a>
+          <a class="link" href="../../ausnz/wellington/index.html"
+            >Wellington</a
+          >
+          <a class="link" href="../../ausnz/picton/index.html">Picton</a>
+          <a class="link" href="../../ausnz/melbourne/index.html">Melbourne</a>
+          <a class="link" href="../../ausnz/darwin/index.html">Darwin</a>
+          <a class="link" href="../../ausnz/cairns/index.html">Cairns</a>
+          <a class="link" href="../../ausnz/sydney/index.html">Sydney</a>
+          <div
+            class="section"
+            style="
+              margin: 10px 0 6px;
+              color: #9ca3af;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            asie
+          </div>
+          <a class="link" href="../../asie/bangkok/index.html">Bangkok</a>
+          <a class="link" href="../../asie/kohsamui/index.html">Koh Samui</a>
+          <a class="link" href="../../asie/bangkok2/index.html">Bangkok</a>
+          <a class="link" href="../../asie/kohchang/index.html">Koh Chang</a>
+          <a class="link" href="../../asie/chiangmai/index.html">Chiang Mai</a>
+          <a class="link" href="../../asie/chiangrai/index.html">Chiang Rai</a>
+          <a class="link" href="../../asie/luangprabang/index.html"
+            >Luang Prabang</a
+          >
+          <a class="link" href="../../asie/vientiane/index.html">Vientiane</a>
+          <a class="link" href="../../asie/pakse/index.html">Pakse</a>
+          <a class="link" href="../../asie/donkhong/index.html">Don Khong</a>
+          <a class="link" href="../../asie/stungtreng/index.html"
+            >Stung Treng</a
+          >
+          <a class="link" href="../../asie/phnompenh/index.html">Phnom Penh</a>
+          <a class="link" href="../../asie/angkor/index.html">Angkor</a>
+          <a class="link" href="../../asie/colombo/index.html">Colombo</a>
+          <a class="link" href="../../asie/kandy/index.html">Kandy</a>
+          <a class="link" href="../../asie/nuwaraeliya/index.html"
+            >Nuwara Eliya</a
+          >
+          <a class="link" href="../../asie/kandy2/index.html">Kandy</a>
+          <a class="link" href="../../asie/sigiriya/index.html">Sigiriya</a>
+          <a class="link" href="../../asie/trincomalee/index.html"
+            >Trincomalée</a
+          >
+          <a class="link" href="../../asie/kandy3/index.html">Kandy</a>
+          <a class="link" href="../../asie/chennai/index.html">Chennai</a>
+          <a class="link" href="../../asie/bangalore/index.html">Bangalore</a>
+          <a class="link" href="../../asie/goa/index.html">Goa</a>
+          <a class="link" href="../../asie/mumbay/index.html">Mumbay</a>
+          <a class="link" href="../../asie/varanasi/index.html">Varanasi</a>
+          <a class="link" href="../../asie/katmandou/index.html">Katmandou</a>
+          <a class="link" href="../../asie/bali/index.html">Bali</a>
+          <a class="link" href="../../asie/hongkong/index.html">Hong Kong</a>
+          <div
+            class="section"
+            style="
+              margin: 10px 0 6px;
+              color: #9ca3af;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            afrique
+          </div>
+          <a class="link" href="../../afrique/nairobi/index.html">Nairobi</a>
+          <a class="link" href="../../afrique/mombasa/index.html">Mombasa</a>
+          <a class="link" href="../../afrique/tiwi/index.html">Tiwi Beach</a>
+          <a class="link" href="../../afrique/zanzibar/index.html">Zanzibar</a>
+          <a class="link" href="../../afrique/capetown/index.html">Cape Town</a>
+        </nav>
+      </aside>
 
-</head>
-<body>
-<div class="wrapper">
-  <aside class="sidebar">
-    <a class="brand" href="../../index.html">Voyages</a>
-    <nav class="nav">
-      <div class="section" style="margin:10px 0 6px; color:#9ca3af; font-size:12px; text-transform:uppercase; letter-spacing:.08em;">europe</div>
-      <a class="link" href="../../europe/madrid/index.html">Madrid</a>
-      <div class="section" style="margin:10px 0 6px; color:#9ca3af; font-size:12px; text-transform:uppercase; letter-spacing:.08em;">amsud</div>
-      <a class="link" href="../../amsud/lima/index.html">Lima</a>
-      <a class="link" href="../../amsud/pisco/index.html">Pisco</a>
-      <a class="link" href="../../amsud/arequipa/index.html">Arequipa</a>
-      <a class="link" href="../../amsud/cuzco/index.html">Cuzco</a>
-      <a class="link" href="../../amsud/lapaz/index.html">La Paz</a>
-      <a class="link" href="../../amsud/uyuni/index.html">Uyuni</a>
-      <a class="link" href="../../amsud/salta/index.html">Salta</a>
-      <a class="link" href="../../amsud/mendoza/index.html">Mendoza</a>
-      <a class="link" href="../../amsud/saopaulo/index.html">São Paulo</a>
-      <a class="link" href="../../amsud/parati/index.html">Parati</a>
-      <a class="link" href="../../amsud/rio/index.html">Rio</a>
-      <a class="link" href="../../amsud/salvador/index.html">Salvador</a>
-      <a class="link" href="../../amsud/olinda/index.html">Olinda</a>
-      <a class="link" href="../../amsud/natal/index.html">Natal</a>
-      <a class="link" href="../../amsud/rio2/index.html">Rio</a>
-      <a class="link active" href="../../amsud/iguazu/index.html">Foz de Iguazu</a>
-      <a class="link" href="../../amsud/buenosaires/index.html">Buenos Aires</a>
-      <a class="link" href="../../amsud/santiago/index.html">Santiago</a>
-      <a class="link" href="../../amsud/havana/index.html">La Havane</a>
-      <a class="link" href="../../amsud/cienfuegos/index.html">Cienfuegos</a>
-      <a class="link" href="../../amsud/havana2/index.html">La Havane</a>
-      <div class="section" style="margin:10px 0 6px; color:#9ca3af; font-size:12px; text-transform:uppercase; letter-spacing:.08em;">ausnz</div>
-      <a class="link" href="../../ausnz/auckland/index.html">Auckland</a>
-      <a class="link" href="../../ausnz/tororua/index.html">Tororua</a>
-      <a class="link" href="../../ausnz/taupo/index.html">Taupo</a>
-      <a class="link" href="../../ausnz/wellington/index.html">Wellington</a>
-      <a class="link" href="../../ausnz/picton/index.html">Picton</a>
-      <a class="link" href="../../ausnz/melbourne/index.html">Melbourne</a>
-      <a class="link" href="../../ausnz/darwin/index.html">Darwin</a>
-      <a class="link" href="../../ausnz/cairns/index.html">Cairns</a>
-      <a class="link" href="../../ausnz/sydney/index.html">Sydney</a>
-      <div class="section" style="margin:10px 0 6px; color:#9ca3af; font-size:12px; text-transform:uppercase; letter-spacing:.08em;">asie</div>
-      <a class="link" href="../../asie/bangkok/index.html">Bangkok</a>
-      <a class="link" href="../../asie/kohsamui/index.html">Koh Samui</a>
-      <a class="link" href="../../asie/bangkok2/index.html">Bangkok</a>
-      <a class="link" href="../../asie/kohchang/index.html">Koh Chang</a>
-      <a class="link" href="../../asie/chiangmai/index.html">Chiang Mai</a>
-      <a class="link" href="../../asie/chiangrai/index.html">Chiang Rai</a>
-      <a class="link" href="../../asie/luangprabang/index.html">Luang Prabang</a>
-      <a class="link" href="../../asie/vientiane/index.html">Vientiane</a>
-      <a class="link" href="../../asie/pakse/index.html">Pakse</a>
-      <a class="link" href="../../asie/donkhong/index.html">Don Khong</a>
-      <a class="link" href="../../asie/stungtreng/index.html">Stung Treng</a>
-      <a class="link" href="../../asie/phnompenh/index.html">Phnom Penh</a>
-      <a class="link" href="../../asie/angkor/index.html">Angkor</a>
-      <a class="link" href="../../asie/colombo/index.html">Colombo</a>
-      <a class="link" href="../../asie/kandy/index.html">Kandy</a>
-      <a class="link" href="../../asie/nuwaraeliya/index.html">Nuwara Eliya</a>
-      <a class="link" href="../../asie/kandy2/index.html">Kandy</a>
-      <a class="link" href="../../asie/sigiriya/index.html">Sigiriya</a>
-      <a class="link" href="../../asie/trincomalee/index.html">Trincomalée</a>
-      <a class="link" href="../../asie/kandy3/index.html">Kandy</a>
-      <a class="link" href="../../asie/chennai/index.html">Chennai</a>
-      <a class="link" href="../../asie/bangalore/index.html">Bangalore</a>
-      <a class="link" href="../../asie/goa/index.html">Goa</a>
-      <a class="link" href="../../asie/mumbay/index.html">Mumbay</a>
-      <a class="link" href="../../asie/varanasi/index.html">Varanasi</a>
-      <a class="link" href="../../asie/katmandou/index.html">Katmandou</a>
-      <a class="link" href="../../asie/bali/index.html">Bali</a>
-      <a class="link" href="../../asie/hongkong/index.html">Hong Kong</a>
-      <div class="section" style="margin:10px 0 6px; color:#9ca3af; font-size:12px; text-transform:uppercase; letter-spacing:.08em;">afrique</div>
-      <a class="link" href="../../afrique/nairobi/index.html">Nairobi</a>
-      <a class="link" href="../../afrique/mombasa/index.html">Mombasa</a>
-      <a class="link" href="../../afrique/tiwi/index.html">Tiwi Beach</a>
-      <a class="link" href="../../afrique/zanzibar/index.html">Zanzibar</a>
-      <a class="link" href="../../afrique/capetown/index.html">Cape Town</a>
+      <main class="content">
+        <div class="backlink">
+          <a data-lightbox="gallery" href="../../index.html"
+            >← Retour à la carte</a
+          >
+        </div>
+        <div class="titre">Foz d'Iguazu</div>
+        <p></p>
+        <div class="resume">Las cataratas</div>
+        <p></p>
+        <div class="gallery">
+          <a href="chutes.jpg" target="_blank" title=""
+            ><img loading="lazy" src="mini_chutes.jpg" alt=""
+          /></a>
+          <a href="louise.jpg" target="_blank" title=""
+            ><img loading="lazy" src="mini_louise.jpg" alt=""
+          /></a>
+          <a href="machin.jpg" target="_blank" title=""
+            ><img loading="lazy" src="mini_machin.jpg" alt=""
+          /></a>
+          <a href="machins.jpg" target="_blank" title=""
+            ><img loading="lazy" src="mini_machins.jpg" alt=""
+          /></a>
+          <a href="parque/ara.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_ara.jpg" alt=""
+          /></a>
+          <a href="parque/ara2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_ara2.jpg" alt=""
+          /></a>
+          <a href="parque/ara3.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_ara3.jpg" alt=""
+          /></a>
+          <a href="parque/ara4.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_ara4.jpg" alt=""
+          /></a>
+          <a href="parque/becplat.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_becplat.jpg" alt=""
+          /></a>
+          <a href="parque/bidules.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_bidules.jpg" alt=""
+          /></a>
+          <a href="parque/casoar.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_casoar.jpg" alt=""
+          /></a>
+          <a href="parque/casoar2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_casoar2.jpg" alt=""
+          /></a>
+          <a href="parque/flamand.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_flamand.jpg" alt=""
+          /></a>
+          <a href="parque/houpette.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_houpette.jpg" alt=""
+          /></a>
+          <a href="parque/machins.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_machins.jpg" alt=""
+          /></a>
+          <a href="parque/machins2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_machins2.jpg" alt=""
+          /></a>
+          <a href="parque/nid.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_nid.jpg" alt=""
+          /></a>
+          <a href="parque/papillon.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_papillon.jpg" alt=""
+          /></a>
+          <a href="parque/perroquet2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_perroquet2.jpg" alt=""
+          /></a>
+          <a href="parque/perroquets.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_perroquets.jpg" alt=""
+          /></a>
+          <a href="parque/portier.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_portier.jpg" alt=""
+          /></a>
+          <a href="parque/portier2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_portier2.jpg" alt=""
+          /></a>
+          <a href="parque/rayures.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_rayures.jpg" alt=""
+          /></a>
+          <a href="parque/rouge.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_rouge.jpg" alt=""
+          /></a>
+          <a href="parque/toucan.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_toucan.jpg" alt=""
+          /></a>
+          <a href="parque/toucan2.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_toucan2.jpg" alt=""
+          /></a>
+          <a href="parque/toucan3.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_toucan3.jpg" alt=""
+          /></a>
+          <a href="parque/toucan4.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_toucan4.jpg" alt=""
+          /></a>
+          <a href="parque/toucan5.jpg" target="_blank" title=""
+            ><img loading="lazy" src="parque/mini_toucan5.jpg" alt=""
+          /></a>
+        </div>
+        <a id="texte"></a>
+        <div class="texte">
+          <h2>2 avril</h2>
+          A la descente du bus, je me mets en quête d'un hôtel, en compagnie de
+          <a data-lightbox="gallery" href="louise.jpg">Louise</a>, une
+          sympathique danoise, et nous filons vers le centre ville dans un des
+          bus "urbanos". Ici ils font encore plus fort pour reduire le chomage :
+          les controleurs-guichetiers ne sont pas dans les bus mais a chaque
+          arret du bus ! Les arrets sont vitres, avec une entrée et une sortie,
+          et un tourniquet equipe de son guichetier. C'est le grand luxe.
+          <p>
+            A l'hôtel, le prix n'est evidemment pas le meme que celui promis à
+            la gare routiere. Depite, je vais prendre une chambre dans l'hôtel
+            d'en face. C'est beaucoup moins bien et il n'y a pas de piscine,
+            mais c'est bon pour mon ego. Je changerai demain.
+          </p>
+          <p>
+            Je retrouve Louise pour un repas dans un "all-you-can-eat". La ville
+            n'est pas très grande, et organisée en quadrillage, c'est impossible
+            de se perdre. Les feux de circulation sont composes de onze lampes.
+            Deux lignes verticales, avec 4 feux rouges et un vert, et un feu
+            orange entre les deux lignes. Quand le feu est rouge, la lampes
+            rouges du haut et du bas sont allumées. Quand le feu s'apprété a
+            passer au vert, les deux lampes rouges se rapprochent, de plus en
+            plus vite, et les moteurs s'echauffent. Quand la lumiere verte
+            s'allume, les fous du volant Bresiliens se lachent complétément, on
+            croirait assister à un grand prix ! (bon, d'accord j'exagere, mais
+            vous avez déjà vu des feux pareils, a part sur les circuits de
+            formule 1 ?).
+          </p>
+          <p>
+            Les jeans sont decores, travailles, decoupes et troues avec
+            precision. La mode de rue est assez inventive par ici.
+          </p>
+          <p>
+            Autre invention pour reduire le chomage : l'horodateur humain. Des
+            employes de la mairie, equipes d'une veste "FISCALISACAO" passent
+            regulierement devant les voitures garées le long de la rue, et
+            mettent a jour le papier sur le pare-brise.
+          </p>
+          <p></p>
+          <h2>3 avril</h2>
+          Je deplace mes affaires dans un hôtel plus proche du centre ville, et
+          qui possede une piscine.
+          <p>
+            En debut d'après-midi, je suis pris d'une soudaine envie de faire du
+            sport et decide de courir jusqu'au "Parque das Aves" (le parc des
+            oiseaux). C'est sur la route des Cataractes, il fait un temps
+            magnifique. Je n'ai aucune idée de la distance que ça represente.
+          </p>
+          <p>
+            17 kms et quelques heures plus tard, le temps a change, je suis
+            epuise mais je parviens a ramper jusqu'au parc, sous les premieres
+            gouttes de pluie. C'est dix minutes avant la fermeture. Sur une
+            heure et demie de visite, je ne vois qu'une dizaine de touristes,
+            c'est comme si j'étais tout seul. Je passe de voliere en voliere,
+            les <a data-lightbox="gallery" href="parque/ara.jpg">oiseaux</a> ne
+            sont pas effrayes, on pourrait presque les toucher ! Il y a
+            enormement d'especes, mes preferes sont les toucans à cause de leur
+            bec enorme (et aussi parce que les toucans sont
+            <a data-lightbox="gallery" href="parque/toucan2.jpg">sympas</a>).
+            Les aras et perroquets font un bruit assourdissant. Il y a meme un
+            département "reptiles", avec une mare a tortues, et un caiman. Mais
+            j'ai renonce à le photographier, car il est reste immobile sous
+            l'eau pendant près d'une demi-heure. Je crois qu'il est mort.
+          </p>
+          <p>
+            Rendez-vous avec Louise et un de ses amis, Guiseppe, qui vient de
+            Barcelone. Ils parlent tous les deux français, ce qui fait qu'on se
+            parle et se comprend en 3 langues ! Nous dinons dans un petit
+            restaurant sympa, accompagnes par un orchestre de samba
+            super-tranquille, a la terrasse (couverte), sous la pluie
+            (battante). Nous initions Guiseppe aux joies de la caipirinha (avec
+            cachaca), caipiroska (avec vodka), caipirissima (avec rhum) et
+            caipifruta (beurk).
+          </p>
+          <p></p>
+          <h2>4 avril</h2>
+          Je retrouve les autres a leur hôtel, et nous prenons un bus pour le
+          parc des cataractes (a 100 metres du "Parque das Aves" environ), les
+          touristes sont accueillis dans un batiment ultra-moderne, ou nous
+          attendons un bus special pour le site des cataractes. C'est reellement
+          impressionnant, il y a des dizaines de chutes d'eau, patites et
+          grandes, sur plusieurs etages. Le tout est encadre par une foret
+          immense, survolée par des aigles ( ?) et des vautours qui decrivent
+          des cercles, par dizaines (euh, les aigles et les vautours). Nous nous
+          rapprochons des chutes d'eau, et nous voyons ce qui attire les rapaces
+          : des centaines d'hirondelles tourbillonnent juste devant les
+          cataractes, a la recherche d'insectes (drole d'endroit pour chasser me
+          direz-vous, mais il se trouve que des nuées d'insectes sont prises au
+          piege sous les chutes d'eau).
+          <p>
+            Je me suis retrouve au milieu d'un groupe de
+            <a data-lightbox="gallery" href="machin.jpg"
+              >"machins a poils durs"</a
+            >
+            en quête de pitance (voir photo). Toute personne pouvant m'aider a
+            identifier ces creatures se verra gratifiée de mon étérnelle
+            reconnaissance.
+          </p>
+          <p>
+            Nous avons egalement vu des chenilles-disco et des papillons
+            pop-art, c'est fou ce que Dame Nature peut inventer pour nous faire
+            rire.
+          </p>
+          <p>
+            Apparemment, ce n'est pas assez pour les promoteurs du parc, qui
+            n'ont pas hesite un instant a poser des panneaux "Attention,
+            traversée de cerfs", ce qui est de la publicite mensongere.
+          </p>
+          <p>
+            Je rentre pendant que les deux autres vont a leur tour visiter le
+            Parque das aves.
+          </p>
+          <p>
+            Nous nous retrouvons pour diner, puis nous decidons d'aller en
+            discotheque (pour changer). Apparemment, la seule boite digne de ce
+            nom (et en centre ville) est le Tass. Aux environs de minuit, nous
+            allons faire la queue avec un regiment de jeunes a peine puberes,
+            nous nous sentons un peu en trop. Heureusement, a l'interieur tout
+            va bien. La musique est bonne et Louise "Butterfly Killa" s'eclate
+            comme une folle.
+          </p>
+          <p>
+            Je leur fais mes adieux en sortant du taxi, je pars le lendemain
+            matin.
+          </p>
+          <p></p>
+          <h2>5 avril</h2>
+          Je me leve tard, aujourd'hui c'est visite d'Itaipu, le plus grand
+          barrage de l'univers connu, fabrique avec la technologie bresilienne
+          et la force de travail bresilienne. On ne peut pas dire qu'ils n'en
+          sont pas fiers, de leur barrage. Il faut dire que c'est de la belle
+          ouvrage, une immense masse de beton co-financée par les deux pays
+          frontaliers, le Paraguay et le Brésil, qui fournit 89% de
+          l'electricite du Paraguay et 25% de celle du Brésil !
+          <p>
+            Retour à l'hôtel pour recuperer mon sac, je prends un bus pour la
+            frontiere Argentine. Rien de plus facile, on est dans une zone
+            appelée "les 3 frontieres", il suffit de traverser un pont pour se
+            retrouver au Paraguay ou en Argentine.
+          </p>
+          <p>
+            Je monte dans un bus marque "Argentina" et demande au guichetier de
+            me prevenir des qu'on arrive près de l'Argentine. Je me retrouve,
+            une fois de plus, au terminal, il n'y a plus que le chauffeur et le
+            guichetier, qui vient de realiser qu'il a oublie quelque chose. Bon,
+            tant pis, j'ai tout mon temps et j'embraie pour un deuxieme tour,
+            cette fois il me previent. Nous sommes sur une avenue, avec des
+            maisons à droite et rien à gauche. Comme frontiere, ça me rappelle
+            plutot l'epoque de la guerre froide. Je lui demande où est le poste
+            frontiere, le "punto frontera" dans mon Portugais inimitable. "Pas
+            de punto, c'est une ligne, tu peux t'arrétér ici ou meme au prochain
+            arret si tu veux". J'ai comme un doute. "C'est bien ici la frontiere
+            avec l'Argentine ?". "Non, ici c'est l'avenue de la Republique
+            Argentine", il est mort de rire. Pas moi. Je fais donc le tour
+            complet avec le bus, retour au terminal de bus, c'est-a-dire mon
+            point de départ, et de la je prends un mini-bus pour Puerto Iguazu,
+            en Argentine. Nous descendons (nous sommes une dizaine) a la
+            frontiere Argentine pour les formalites, apparemment les autorites
+            bresiliennes se foutent complétément qu'on quitte le pays. A la
+            sortie de la douane argentine, nous nous apercevons que le bus qui
+            était cense nous attendre nous a lachement abandonnes, a un km de
+            Puerto Iguazu. Bon, je vais terminer à pied, après être passe par le
+            bureau de change.
+          </p>
+          <p>
+            Nous sommes samedi soir, et j'ai faim. Je mange un bife de chorizo
+            dans un restaurant qui ne paie pas de mine comme ça, mais c'est
+            delicieux. A la table d'a côté, deux Allemands, la cinquantaine bien
+            tapée, discutent, et je ne tarde pas a rejoindre leur table. L'un
+            d'entre eux est prof de Français et l'autre est un voyageur depuis
+            des années. Ils me parlent de l'Asie, je leur raconte Rio, bref nous
+            avons une discussion typique de travellers.
+          </p>
+          <p>
+            Je pose mon sac dans une AJ, c'est plus un dortoir qu'une auberge,
+            mais ça me convient bien pour une nuit.
+          </p>
+          <p>
+            La ville ressemble à un trou a rats, mais comme c'est samedi, je
+            vais faire un effort et sortir. Sur les conseils des locaux, je me
+            dirige vers la "reserva", en fait c'est assez loin, 1-2 km à pied.
+            Je suis arrive dans les premiers, c'est juste un grand bar avec des
+            videos aux murs et de la soupe rock-latino, genre "las Ketchups" et
+            Ricky Martin. Je ne m'attarde pas. Sur le retour, je croise un
+            groupe de 4 types passablement emeches, l'un d'eux me lance un
+            regard mauvais, il brandit une espece de baton et me lance, quand je
+            passe a sa hauteur : "Dame tus dineros !". Mais qu'est-ce que j'ai
+            pu bien faire aux Argentins pour meriter un tel traitement ? En
+            fait, il est le seul a vouloir m'impressionner, ses comperes ne sont
+            pas très convaincus, et grace à un subtil melange de psychologie du
+            bouledogue et de course à pied (dans cet ordre) je parviens a leur
+            echapper et a me refugier dans une tienda de nuit. Je finis la route
+            en taxi, j'en ai eu assez pour la nuit !
+          </p>
+          <p></p>
+          <h2>6 avril</h2>
+          Il fait un temps magnifique, toutes les familles sont occupées au
+          barbecue dans le jardin, et je prends un bus de luxe pour Buenos
+          Aires. Repas servi dans le bus, hotesse, en plus je suis assis à
+          l'avant, je profite de la vue panoramique. L'Argentin a côté de moi
+          est rassure quand il apprend que je ne suis pas un "yanki", et on
+          reparle politique. C'est vrai que c'est bientot les elections ici, les
+          gens sont degoutes par les candidats en presence, mais ils se sentent
+          quand meme un peu concernes. Le vote est obligatoire, ça aide un peu.
+          <p>
+            <a class="backtop" href="#top">Revenir en haut</a>
+          </p>
+        </div>
+      </main>
+    </div>
 
-    </nav>
-  </aside>
-
-  <main class="content">
-<div class="backlink"><a data-lightbox="gallery" href="../../index.html">← Retour à la carte</a></div><div class="titre">
-Foz d'Iguazu
-</div>
-<p>
-<div class="resume">
-Las cataratas
-</div>
-<p>
-<div class="gallery"><a href="chutes.jpg" target="_blank" title=""><img loading="lazy" src="mini_chutes.jpg" alt="" /></a>
-<a href="louise.jpg" target="_blank" title=""><img loading="lazy" src="mini_louise.jpg" alt="" /></a>
-<a href="machin.jpg" target="_blank" title=""><img loading="lazy" src="mini_machin.jpg" alt="" /></a>
-<a href="machins.jpg" target="_blank" title=""><img loading="lazy" src="mini_machins.jpg" alt="" /></a>
-<a href="parque/ara.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_ara.jpg" alt="" /></a>
-<a href="parque/ara2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_ara2.jpg" alt="" /></a>
-<a href="parque/ara3.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_ara3.jpg" alt="" /></a>
-<a href="parque/ara4.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_ara4.jpg" alt="" /></a>
-<a href="parque/becplat.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_becplat.jpg" alt="" /></a>
-<a href="parque/bidules.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_bidules.jpg" alt="" /></a>
-<a href="parque/casoar.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_casoar.jpg" alt="" /></a>
-<a href="parque/casoar2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_casoar2.jpg" alt="" /></a>
-<a href="parque/flamand.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_flamand.jpg" alt="" /></a>
-<a href="parque/houpette.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_houpette.jpg" alt="" /></a>
-<a href="parque/machins.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_machins.jpg" alt="" /></a>
-<a href="parque/machins2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_machins2.jpg" alt="" /></a>
-<a href="parque/nid.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_nid.jpg" alt="" /></a>
-<a href="parque/papillon.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_papillon.jpg" alt="" /></a>
-<a href="parque/perroquet2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_perroquet2.jpg" alt="" /></a>
-<a href="parque/perroquets.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_perroquets.jpg" alt="" /></a>
-<a href="parque/portier.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_portier.jpg" alt="" /></a>
-<a href="parque/portier2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_portier2.jpg" alt="" /></a>
-<a href="parque/rayures.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_rayures.jpg" alt="" /></a>
-<a href="parque/rouge.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_rouge.jpg" alt="" /></a>
-<a href="parque/toucan.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_toucan.jpg" alt="" /></a>
-<a href="parque/toucan2.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_toucan2.jpg" alt="" /></a>
-<a href="parque/toucan3.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_toucan3.jpg" alt="" /></a>
-<a href="parque/toucan4.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_toucan4.jpg" alt="" /></a>
-<a href="parque/toucan5.jpg" target="_blank" title=""><img loading="lazy" src="parque/mini_toucan5.jpg" alt="" /></a></div>
-<a id="texte"></a>
-<div class="texte">
-
-
-<h2>2 avril</h2>
-A la descente du bus, je me mets en quête d'un hôtel, en compagnie de <a data-lightbox="gallery" href="louise.jpg">Louise</a>, une sympathique danoise, et nous filons vers le centre ville dans un des bus "urbanos". Ici ils font encore plus fort pour reduire le chomage : les controleurs-guichetiers ne sont pas dans les bus mais a chaque arret du bus ! Les arrets sont vitres, avec une entrée et une sortie, et un tourniquet equipe de son guichetier. C'est le grand luxe.<p>
-A l'hôtel, le prix n'est evidemment pas le meme que celui promis à la gare routiere. Depite, je vais prendre une chambre dans l'hôtel d'en face. C'est beaucoup moins bien et il n'y a pas de piscine, mais c'est bon pour mon ego. Je changerai demain.<p>
-Je retrouve Louise pour un repas dans un "all-you-can-eat". La ville n'est pas très grande, et organisée en quadrillage, c'est impossible de se perdre. Les feux de circulation sont composes de onze lampes. Deux lignes verticales, avec 4 feux rouges et un vert, et un feu orange entre les deux lignes. Quand le feu est rouge, la lampes rouges du haut et du bas sont allumées. Quand le feu s'apprété a passer au vert, les deux lampes rouges se rapprochent, de plus en plus vite, et les moteurs s'echauffent. Quand la lumiere verte s'allume, les fous du volant Bresiliens se lachent complétément, on croirait assister à un grand prix ! (bon, d'accord j'exagere, mais vous avez déjà vu des feux pareils, a part sur les circuits de formule 1 ?).<p>
-Les jeans sont decores, travailles, decoupes et troues avec precision. La mode de rue est assez inventive par ici.<p>
-Autre invention pour reduire le chomage : l'horodateur humain. Des employes de la mairie, equipes d'une veste "FISCALISACAO" passent regulierement devant les voitures garées le long de la rue, et mettent a jour le papier sur le pare-brise.<p>
-<h2>3 avril</h2>
-Je deplace mes affaires dans un hôtel plus proche du centre ville, et qui possede une piscine.<p>
-En debut d'après-midi, je suis pris d'une soudaine envie de faire du sport et decide de courir jusqu'au "Parque das Aves" (le parc des oiseaux). C'est sur la route des Cataractes, il fait un temps magnifique. Je n'ai aucune idée de la distance que ça represente.<p>
-17 kms et quelques heures plus tard, le temps a change, je suis epuise mais je parviens a ramper jusqu'au parc, sous les premieres gouttes de pluie. C'est dix minutes avant la fermeture. Sur une heure et demie de visite, je ne vois qu'une dizaine de touristes, c'est comme si j'étais tout seul. Je passe de voliere en voliere, les <a data-lightbox="gallery" href="parque/ara.jpg">oiseaux</a> ne sont pas effrayes, on pourrait presque les toucher ! Il y a enormement d'especes, mes preferes sont les toucans à cause de leur bec enorme (et aussi parce que les toucans sont <a data-lightbox="gallery" href="parque/toucan2.jpg">sympas</a>). Les aras et perroquets font un bruit assourdissant. Il y a meme un département "reptiles", avec une mare a tortues, et un caiman. Mais j'ai renonce à le photographier, car il est reste immobile sous l'eau pendant près d'une demi-heure. Je crois qu'il est mort.<p>
-Rendez-vous avec Louise et un de ses amis, Guiseppe, qui vient de Barcelone. Ils parlent tous les deux français, ce qui fait qu'on se parle et se comprend en 3 langues ! Nous dinons dans un petit restaurant sympa, accompagnes par un orchestre de samba super-tranquille, a la terrasse (couverte), sous la pluie (battante). Nous initions Guiseppe aux joies de la caipirinha (avec cachaca), caipiroska (avec vodka), caipirissima (avec rhum) et caipifruta (beurk).<p>
-<h2>4 avril</h2>
-Je retrouve les autres a leur hôtel, et nous prenons un bus pour le parc des cataractes (a 100 metres du "Parque das Aves" environ), les touristes sont accueillis dans un batiment ultra-moderne, ou nous attendons un bus special pour le site des cataractes. C'est reellement impressionnant, il y a des dizaines de chutes d'eau, patites et grandes, sur plusieurs etages. Le tout est encadre par une foret immense, survolée par des aigles ( ?) et des vautours qui decrivent des cercles, par dizaines (euh, les aigles et les vautours). Nous nous rapprochons des chutes d'eau, et nous voyons ce qui attire les rapaces : des centaines d'hirondelles tourbillonnent juste devant les cataractes, a la recherche d'insectes (drole d'endroit pour chasser me direz-vous, mais il se trouve que des nuées d'insectes sont prises au piege sous les chutes d'eau).<p>
-Je me suis retrouve au milieu d'un groupe de <a data-lightbox="gallery" href="machin.jpg">"machins a poils durs"</a> en quête de pitance (voir photo). Toute personne pouvant m'aider a identifier ces creatures se verra gratifiée de mon étérnelle reconnaissance.<p>
-Nous avons egalement vu des chenilles-disco et des papillons pop-art, c'est fou ce que Dame Nature peut inventer pour nous faire rire.<p>
-Apparemment, ce n'est pas assez pour les promoteurs du parc, qui n'ont pas hesite un instant a poser des panneaux "Attention, traversée de cerfs", ce qui est de la publicite mensongere.<p>
-Je rentre pendant que les deux autres vont a leur tour visiter le Parque das aves.<p>
-Nous nous retrouvons pour diner, puis nous decidons d'aller en discotheque (pour changer). Apparemment, la seule boite digne de ce nom (et en centre ville) est le Tass. Aux environs de minuit, nous allons faire la queue avec un regiment de jeunes a peine puberes, nous nous sentons un peu en trop. Heureusement, a l'interieur tout va bien. La musique est bonne et Louise "Butterfly Killa" s'eclate comme une folle.<p>
-Je leur fais mes adieux en sortant du taxi, je pars le lendemain matin.<p>
-<h2>5 avril</h2>
-Je me leve tard, aujourd'hui c'est visite d'Itaipu, le plus grand barrage de l'univers connu, fabrique avec la technologie bresilienne et la force de travail bresilienne. On ne peut pas dire qu'ils n'en sont pas fiers, de leur barrage. Il faut dire que c'est de la belle ouvrage, une immense masse de beton co-financée par les deux pays frontaliers, le Paraguay et le Brésil, qui fournit 89% de l'electricite du Paraguay et 25% de celle du Brésil !<p>
-Retour à l'hôtel pour recuperer mon sac, je prends un bus pour la frontiere Argentine. Rien de plus facile, on est dans une zone appelée "les 3 frontieres", il suffit de traverser un pont pour se retrouver au Paraguay ou en Argentine.<p>
-Je monte dans un bus marque "Argentina" et demande au guichetier de me prevenir des qu'on arrive près de l'Argentine. Je me retrouve, une fois de plus, au terminal, il n'y a plus que le chauffeur et le guichetier, qui vient de realiser qu'il a oublie quelque chose. Bon, tant pis, j'ai tout mon temps et j'embraie pour un deuxieme tour, cette fois il me previent. Nous sommes sur une avenue, avec des maisons à droite et rien à gauche. Comme frontiere, ça me rappelle plutot l'epoque de la guerre froide. Je lui demande où est le poste frontiere, le "punto frontera" dans mon Portugais inimitable. "Pas de punto, c'est une ligne, tu peux t'arrétér ici ou meme au prochain arret si tu veux". J'ai comme un doute. "C'est bien ici la frontiere avec l'Argentine ?". "Non, ici c'est l'avenue de la Republique Argentine", il est mort de rire. Pas moi. Je fais donc le tour complet avec le bus, retour au terminal de bus, c'est-a-dire mon point de départ, et de la je prends un mini-bus pour Puerto Iguazu, en Argentine. Nous descendons (nous sommes une dizaine) a la frontiere Argentine pour les formalites, apparemment les autorites bresiliennes se foutent complétément qu'on quitte le pays. A la sortie de la douane argentine, nous nous apercevons que le bus qui était cense nous attendre nous a lachement abandonnes, a un km de Puerto Iguazu. Bon, je vais terminer à pied, après être passe par le bureau de change.<p>
-Nous sommes samedi soir, et j'ai faim. Je mange un bife de chorizo dans un restaurant qui ne paie pas de mine comme ça, mais c'est delicieux. A la table d'a côté, deux Allemands, la cinquantaine bien tapée, discutent, et je ne tarde pas a rejoindre leur table. L'un d'entre eux est prof de Français et l'autre est un voyageur depuis des années. Ils me parlent de l'Asie, je leur raconte Rio, bref nous avons une discussion typique de travellers.<p>
-Je pose mon sac dans une AJ, c'est plus un dortoir qu'une auberge, mais ça me convient bien pour une nuit.<p>
-La ville ressemble à un trou a rats, mais comme c'est samedi, je vais faire un effort et sortir. Sur les conseils des locaux, je me dirige vers la "reserva", en fait c'est assez loin, 1-2 km à pied. Je suis arrive dans les premiers, c'est juste un grand bar avec des videos aux murs et de la soupe rock-latino, genre "las Ketchups" et Ricky Martin. Je ne m'attarde pas. Sur le retour, je croise un groupe de 4 types passablement emeches, l'un d'eux me lance un regard mauvais, il brandit une espece de baton et me lance, quand je passe a sa hauteur : "Dame tus dineros !". Mais qu'est-ce que j'ai pu bien faire aux Argentins pour meriter un tel traitement ? En fait, il est le seul a vouloir m'impressionner, ses comperes ne sont pas très convaincus, et grace à un subtil melange de psychologie du bouledogue et de course à pied (dans cet ordre) je parviens a leur echapper et a me refugier dans une tienda de nuit. Je finis la route en taxi, j'en ai eu assez pour la nuit !<p>
-<h2>6 avril</h2>
-Il fait un temps magnifique, toutes les familles sont occupées au barbecue dans le jardin, et je prends un bus de luxe pour Buenos Aires. Repas servi dans le bus, hotesse, en plus je suis assis à l'avant, je profite de la vue panoramique. L'Argentin a côté de moi est rassure quand il apprend que je ne suis pas un "yanki", et on reparle politique. C'est vrai que c'est bientot les elections ici, les gens sont degoutes par les candidats en presence, mais ils se sentent quand meme un peu concernes. Le vote est obligatoire, ça aide un peu.<p>
-<a class="backtop" href="#top">Revenir en haut</a>
-</p>
-
- </div>
-
-
- 
-</div>
-  </main>
-</div>
-
-  <!-- Theme scripts -->
-  <script src="../../assets/lightbox.js"></script>
-  <script src="../../assets/theme.js"></script>
-
-</body>
+    <!-- Theme scripts -->
+    <script src="../../assets/lightbox.js"></script>
+    <script src="../../assets/theme.js"></script>
+  </body>
 </html>

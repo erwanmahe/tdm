@@ -1,0 +1,22 @@
+{
+  "name": "tdm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwanmahe/tdm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwanmahe/tdm/issues"
+  },
+  "homepage": "https://github.com/erwanmahe/tdm#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
