@@ -1,27 +1,64 @@
 /* Material-inspired theme overrides for static_site */
 :root {
-  --md-bg: #0b1020;
-  --md-surface: #111827;
-  --md-surface-2: #0d1528;
-  --md-text: #e5e7eb;
-  --md-muted: #9aa4b2;
+  --md-bg: #f5f5f0;
+  --md-surface: #ffffff;
+  --md-surface-2: #f0f0ea;
+  --md-text: #333333;
+  --md-muted: #666666;
   --md-primary: #3b82f6;
   --md-secondary: #22d3ee;
-  --md-border: #1f2937;
-  --md-shadow: 0 6px 20px rgba(0,0,0,.35);
+  --md-border: #e0e0e0;
+  --md-shadow: 0 6px 20px rgba(0,0,0,.1);
 }
 
-html, body { font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial; }
-body { background: radial-gradient(1200px 600px at 0% 0%, #121826 0, var(--md-bg) 50%, #0a0f1e 100%); color: var(--md-text); }
+html, body { 
+  font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial; 
+}
+body { 
+  background: var(--md-bg); 
+  color: var(--md-text); 
+}
 
-.wrapper { gap: 0; }
-.sidebar { background: linear-gradient(180deg, var(--md-surface), var(--md-surface-2)); border-right: 1px solid var(--md-border); box-shadow: var(--md-shadow); }
-.brand { font-weight: 800; letter-spacing: .4px; }
-.version { color: var(--md-muted); opacity: .9; }
+.wrapper { 
+  gap: 0; 
+}
 
-.nav a { color: #cbd5e1; display: block; padding: 8px 10px; border-radius: 8px; transition: background .15s ease, color .15s ease; }
-.nav a:hover { background: rgba(59,130,246,.15); color: white; }
-.nav a.active { background: rgba(34,211,238,.18); color: white; box-shadow: inset 0 0 0 1px rgba(34,211,238,.35); }
+.sidebar { 
+  background: var(--md-bg); 
+  border-right: 1px solid var(--md-border); 
+  box-shadow: var(--md-shadow); 
+  color: var(--md-text);
+}
+
+.brand { 
+  font-weight: 800; 
+  letter-spacing: .4px; 
+  color: var(--md-text);
+}
+
+.version { 
+  color: var(--md-muted); 
+  opacity: .9; 
+}
+
+.nav a { 
+  color: var(--md-text); 
+  display: block; 
+  padding: 8px 10px; 
+  border-radius: 8px; 
+  transition: background .15s ease, color .15s ease; 
+}
+
+.nav a:hover { 
+  background: rgba(0, 0, 0, 0.05); 
+  color: #000; 
+}
+
+.nav a.active { 
+  background: rgba(0, 0, 0, 0.1); 
+  color: #000; 
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1); 
+}
 
 .content { padding: 28px; max-width: 1100px; }
 .header .h1 { font-size: 30px; font-weight: 800; }
