@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arequipa</title>
+    <link rel="stylesheet" href="../../../assets/styles.css" />
+    <link rel="stylesheet" href="../../../assets/fonts.css" />
+    <link rel="stylesheet" href="../../../assets/theme.css" />
+    <link rel="stylesheet" href="../../../assets/lightbox.css" />
+  </head>
+  <body>
+    <div id="app" v-scope="TDM_APP()" v-cloak>
+    <main
+      class="content"
+      style="max-width: 1200px; margin: 0 auto; padding: 16px"
+    >
+      <div class="backlink" style="margin-bottom: 8px">
+        <a href="../index.html#top">← Retour à la page ville</a>
+      </div>
+      <h1 style="margin: 8px 0 16px">Arequipa</h1>
+      <div class="gallery">
+        <a
+          v-for="it in page.gallery.filter(it => it && it.href && /^photos\/[^/]+$/.test(it.href))"
+          data-lightbox="gallery"
+          :href="resolveHref(it.href)"
+          target="_blank"
+          :title="it.caption || ''"
+        >
+          <img loading="lazy" :src="resolveSrc(it.src)" :alt="it.caption || ''" />
+        </a>
+      </div>
+      <div class="subfolders">
+        <ul style="list-style: none; padding-left: 0; margin-left: 0;">
+          <li>
+            misti
+            <div class="gallery" style="margin-top: 12px">
+              <a
+                v-for="it in page.gallery.filter(it => it && it.href && /^photos\/misti\/[^/]+$/.test(it.href))"
+                data-lightbox="gallery"
+                :href="resolveHref(it.href)"
+                target="_blank"
+                :title="it.caption || ''"
+              >
+                <img loading="lazy" :src="resolveSrc(it.src)" :alt="it.caption || ''" />
+              </a>
+            </div>
+          </li>
+          <li>
+            rues
+            <div class="gallery" style="margin-top: 12px">
+              <a
+                v-for="it in page.gallery.filter(it => it && it.href && /^photos\/rues\/[^/]+$/.test(it.href))"
+                data-lightbox="gallery"
+                :href="resolveHref(it.href)"
+                target="_blank"
+                :title="it.caption || ''"
+              >
+                <img loading="lazy" :src="resolveSrc(it.src)" :alt="it.caption || ''" />
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    </div>
+    <script src="../../../assets/nav-data.js"></script>
+    <script src="../data.js"></script>
+    <script src="../../../assets/app.js"></script>
+    <script src="../../../assets/petite-vue.iife.js"></script>
+    <script src="../../../assets/mount.js"></script>
+    <script src="../../../assets/lightbox.js"></script>
+    <script src="../../../assets/theme.js"></script>
+  </body>
+</html>
