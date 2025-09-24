@@ -110,7 +110,7 @@ for city_dir in "$BASE_DIR"/*/; do
 
     first=1
     if [[ -d "$photos_dir" ]]; then
-      # Find all jpg/jpeg images recursively
+      # Find all jpg/jpeg images recursively, excluding thumbnails (mini_*)
       while IFS= read -r -d '' img; do
         rel_path=${img#"$photos_dir/"}               # e.g., subdir/file.jpg or file.jpg
         dir_part=$(dirname "$rel_path")
@@ -133,7 +133,10 @@ for city_dir in "$BASE_DIR"/*/; do
         printf '    "src": %s,\n'  "$(printf '"photos/%s"' "$mini_path")"
         printf '    "caption": %s\n' "$cap_json"
         printf '  }'
-      done < <(find "$photos_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | sort -z)
+      done < <(find "$photos_dir" -type f \
+                 \( -iname '*.jpg' -o -iname '*.jpeg' \) \
+                 -not -name 'mini_*' \
+                 -print0 | sort -z)
     fi
 
     echo ''
