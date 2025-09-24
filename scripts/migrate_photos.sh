@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Create a photos/ folder in each city folder under amsud/ and place media inside it.
+# Create a photos/ folder in each city folder under CONTINENT/ and place media inside it.
 # Usage:
 #   ./scripts/migrate_photos.sh            # default: copy files/folders into photos/
 #   ./scripts/migrate_photos.sh move       # move files/folders into photos/
@@ -14,25 +14,25 @@ set -euo pipefail
 
 MODE=${1:-copy}      # "copy" (default) or "move"
 ROOT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
-AMSUD_DIR="$ROOT_DIR/amsud"
+CONTINENT_DIR="$ROOT_DIR/ausnz"
 
-if [[ ! -d "$AMSUD_DIR" ]]; then
-  echo "Error: Could not find amsud directory at $AMSUD_DIR" >&2
+if [[ ! -d "$CONTINENT_DIR" ]]; then
+  echo "Error: Could not find CONTINENT directory at $CONTINENT_DIR" >&2
   exit 1
 fi
 
 shopt -s nullglob dotglob
 
-echo "Starting migration in: $AMSUD_DIR (mode: $MODE)"
+echo "Starting migration in: $CONTINENT_DIR (mode: $MODE)"
 
 total_cities=0
-for city_dir in "$AMSUD_DIR"/*/ ; do
+for city_dir in "$CONTINENT_DIR"/*/ ; do
   # Skip non-directories or unexpected paths
   [[ -d "$city_dir" ]] || continue
 
   city_name=$(basename "$city_dir")
 
-  # Skip top-level pages like amsud/photos if any (defensive)
+  # Skip top-level pages like CONTINENT/photos if any (defensive)
   if [[ "$city_name" == "photos" ]]; then
     continue
   fi
