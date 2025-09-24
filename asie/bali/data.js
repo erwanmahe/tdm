@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Tir groupe : Kuta-Ubud-Kuta",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

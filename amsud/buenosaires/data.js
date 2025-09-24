@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "San Telmo",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Calme et volupte",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

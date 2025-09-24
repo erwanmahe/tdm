@@ -5,26 +5,6 @@ window.TDM_PAGE = {
   backlinkHref: "../../index.html",
   gallery: [
   {
-    "href": "photos/mini_policia.jpg",
-    "src": "photos/mini_mini_policia.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_rue.jpg",
-    "src": "photos/mini_mini_rue.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_theatre.jpg",
-    "src": "photos/mini_mini_theatre.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_vieuxbat.jpg",
-    "src": "photos/mini_mini_vieuxbat.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/policia.jpg",
     "src": "photos/mini_policia.jpg",
     "caption": ""

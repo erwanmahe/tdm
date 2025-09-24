@@ -10,21 +10,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/bota/mini_corcovado.jpg",
-    "src": "photos/bota/mini_mini_corcovado.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bota/mini_orchidees2.jpg",
-    "src": "photos/bota/mini_mini_orchidees2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bota/mini_orchidees.jpg",
-    "src": "photos/bota/mini_mini_orchidees.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/bota/orchidees2.jpg",
     "src": "photos/bota/mini_orchidees2.jpg",
     "caption": ""
@@ -37,51 +22,6 @@ window.TDM_PAGE = {
   {
     "href": "photos/lago.jpg",
     "src": "photos/mini_lago.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_lago.jpg",
-    "src": "photos/mini_mini_lago.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano1.jpg",
-    "src": "photos/pano/mini_mini_pano1.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano2.jpg",
-    "src": "photos/pano/mini_mini_pano2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano3.jpg",
-    "src": "photos/pano/mini_mini_pano3.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano4.jpg",
-    "src": "photos/pano/mini_mini_pano4.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano5.jpg",
-    "src": "photos/pano/mini_mini_pano5.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano6.jpg",
-    "src": "photos/pano/mini_mini_pano6.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano7.jpg",
-    "src": "photos/pano/mini_mini_pano7.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/pano/mini_pano8.jpg",
-    "src": "photos/pano/mini_mini_pano8.jpg",
     "caption": ""
   },
   {

@@ -13,11 +13,6 @@ window.TDM_PAGE = {
     "href": "photos/100_0097.jpg",
     "src": "photos/mini_100_0097.jpg",
     "caption": ""
-  },
-  {
-    "href": "photos/mini_101_0148.jpg",
-    "src": "photos/mini_mini_101_0148.jpg",
-    "caption": ""
   }
   ]
 };

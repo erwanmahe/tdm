@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Le paradis",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

@@ -20,36 +20,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/kratie/mini_applebook.jpg",
-    "src": "photos/kratie/mini_mini_applebook.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kratie/mini_boy.jpg",
-    "src": "photos/kratie/mini_mini_boy.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kratie/mini_course.jpg",
-    "src": "photos/kratie/mini_mini_course.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kratie/mini_spacecab01.jpg",
-    "src": "photos/kratie/mini_mini_spacecab01.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kratie/mini_spacecab02.jpg",
-    "src": "photos/kratie/mini_mini_spacecab02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kratie/mini_surledeck.jpg",
-    "src": "photos/kratie/mini_mini_surledeck.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/kratie/spacecab01.jpg",
     "src": "photos/kratie/mini_spacecab01.jpg",
     "caption": ""
@@ -62,71 +32,6 @@ window.TDM_PAGE = {
   {
     "href": "photos/kratie/surledeck.jpg",
     "src": "photos/kratie/mini_surledeck.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat01.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat01.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat02.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat03.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat03.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat04.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat04.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat05.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat05.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat06.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat06.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat07.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat07.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat08.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat08.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat09.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat09.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_speedboat10.jpg",
-    "src": "photos/speedboat/mini_mini_speedboat10.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_tsungtreng01.jpg",
-    "src": "photos/speedboat/mini_mini_tsungtreng01.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_tsungtreng02.jpg",
-    "src": "photos/speedboat/mini_mini_tsungtreng02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/speedboat/mini_tsungtreng03.jpg",
-    "src": "photos/speedboat/mini_mini_tsungtreng03.jpg",
     "caption": ""
   },
   {

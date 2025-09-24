@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "jet lag",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

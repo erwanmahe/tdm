@@ -75,71 +75,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant02.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant03.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant03.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant04.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant04.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant05.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant05.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant06.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant06.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant07.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant07.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant08.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant08.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant09.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant09.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant10.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant10.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant11.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant11.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_marcheflottant.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_marcheflottant.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_moi2.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_moi2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/marcheflottant/mini_moi.jpg",
-    "src": "photos/kanchanaburi/marcheflottant/mini_mini_moi.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/kanchanaburi/marcheflottant/moi2.jpg",
     "src": "photos/kanchanaburi/marcheflottant/mini_moi2.jpg",
     "caption": ""
@@ -147,46 +82,6 @@ window.TDM_PAGE = {
   {
     "href": "photos/kanchanaburi/marcheflottant/moi.jpg",
     "src": "photos/kanchanaburi/marcheflottant/mini_moi.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_atelierbois02.jpg",
-    "src": "photos/kanchanaburi/mini_mini_atelierbois02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_atelierbois.jpg",
-    "src": "photos/kanchanaburi/mini_mini_atelierbois.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_fabsucre.jpg",
-    "src": "photos/kanchanaburi/mini_mini_fabsucre.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_moi3.jpg",
-    "src": "photos/kanchanaburi/mini_mini_moi3.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_museekwai.jpg",
-    "src": "photos/kanchanaburi/mini_mini_museekwai.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_rivierekwai02.jpg",
-    "src": "photos/kanchanaburi/mini_mini_rivierekwai02.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_rivierekwai03.jpg",
-    "src": "photos/kanchanaburi/mini_mini_rivierekwai03.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/kanchanaburi/mini_rivierekwai.jpg",
-    "src": "photos/kanchanaburi/mini_mini_rivierekwai.jpg",
     "caption": ""
   },
   {

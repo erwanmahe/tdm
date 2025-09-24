@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "l'Himalaya",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

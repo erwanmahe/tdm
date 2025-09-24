@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Pink Floyd",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

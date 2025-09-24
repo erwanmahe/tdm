@@ -45,51 +45,6 @@ window.TDM_PAGE = {
     "caption": "Encore le cheval (je l'aime bien)"
   },
   {
-    "href": "photos/mini_banque.jpg",
-    "src": "photos/mini_mini_banque.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_batcentre.jpg",
-    "src": "photos/mini_mini_batcentre.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_bus1.jpg",
-    "src": "photos/mini_mini_bus1.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_bus2.jpg",
-    "src": "photos/mini_mini_bus2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_cox.jpg",
-    "src": "photos/mini_mini_cox.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_creme.jpg",
-    "src": "photos/mini_mini_creme.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_manege1.jpg",
-    "src": "photos/mini_mini_manege1.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_manege2.jpg",
-    "src": "photos/mini_mini_manege2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_panne.jpg",
-    "src": "photos/mini_mini_panne.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/panne.jpg",
     "src": "photos/mini_panne.jpg",
     "caption": "Notre car de Lima a Pisco. Il est parti avec 1h30 de retard, et nous a laches lamentablement apres 1h de route seulement :-("

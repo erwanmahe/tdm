@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "La semaine sainte",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

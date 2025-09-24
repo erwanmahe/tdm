@@ -10,46 +10,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/mini_campogrande.jpg",
-    "src": "photos/mini_mini_campogrande.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho2.jpg",
-    "src": "photos/mini_mini_pelourinho2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho3.jpg",
-    "src": "photos/mini_mini_pelourinho3.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho4.jpg",
-    "src": "photos/mini_mini_pelourinho4.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho5.jpg",
-    "src": "photos/mini_mini_pelourinho5.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho6.jpg",
-    "src": "photos/mini_mini_pelourinho6.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho7.jpg",
-    "src": "photos/mini_mini_pelourinho7.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_pelourinho.jpg",
-    "src": "photos/mini_mini_pelourinho.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/pelourinho2.jpg",
     "src": "photos/mini_pelourinho2.jpg",
     "caption": ""

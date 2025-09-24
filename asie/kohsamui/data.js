@@ -13,16 +13,6 @@ window.TDM_PAGE = {
     "href": "photos/bateau.jpg",
     "src": "photos/mini_bateau.jpg",
     "caption": ""
-  },
-  {
-    "href": "photos/mini_bateau2.jpg",
-    "src": "photos/mini_mini_bateau2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_bateau.jpg",
-    "src": "photos/mini_mini_bateau.jpg",
-    "caption": ""
   }
   ]
 };

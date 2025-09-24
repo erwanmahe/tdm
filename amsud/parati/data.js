@@ -35,61 +35,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/bateau/mini_a_bord.jpg",
-    "src": "photos/bateau/mini_mini_a_bord.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_amarres.jpg",
-    "src": "photos/bateau/mini_mini_amarres.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_batpeche.jpg",
-    "src": "photos/bateau/mini_mini_batpeche.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_eglise.jpg",
-    "src": "photos/bateau/mini_mini_eglise.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_ile2.jpg",
-    "src": "photos/bateau/mini_mini_ile2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_ile.jpg",
-    "src": "photos/bateau/mini_mini_ile.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_plage2.jpg",
-    "src": "photos/bateau/mini_mini_plage2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_plage.jpg",
-    "src": "photos/bateau/mini_mini_plage.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_poissons2.jpg",
-    "src": "photos/bateau/mini_mini_poissons2.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_poissons.jpg",
-    "src": "photos/bateau/mini_mini_poissons.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/bateau/mini_retour.jpg",
-    "src": "photos/bateau/mini_mini_retour.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/bateau/plage2.jpg",
     "src": "photos/bateau/mini_plage2.jpg",
     "caption": ""
@@ -117,16 +62,6 @@ window.TDM_PAGE = {
   {
     "href": "photos/dubus.jpg",
     "src": "photos/mini_dubus.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_dubus.jpg",
-    "src": "photos/mini_mini_dubus.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_vw.jpg",
-    "src": "photos/mini_mini_vw.jpg",
     "caption": ""
   },
   {

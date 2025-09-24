@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Comme en Europe",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

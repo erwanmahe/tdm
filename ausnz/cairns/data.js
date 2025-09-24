@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "the great reef barrier",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

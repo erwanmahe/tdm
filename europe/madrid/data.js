@@ -10,26 +10,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/mini_metropolis.jpg",
-    "src": "photos/mini_mini_metropolis.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_moderne.jpg",
-    "src": "photos/mini_mini_moderne.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_plaza1.jpg",
-    "src": "photos/mini_mini_plaza1.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/mini_plaza2.jpg",
-    "src": "photos/mini_mini_plaza2.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/moderne.jpg",
     "src": "photos/mini_moderne.jpg",
     "caption": ""

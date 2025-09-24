@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Craters of the Moon",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

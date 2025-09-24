@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Mégalopole",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

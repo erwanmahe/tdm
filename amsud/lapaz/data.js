@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "La Pause La Paz",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

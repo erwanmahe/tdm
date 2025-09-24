@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "de Cuba",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "L'Australie au pas de course",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

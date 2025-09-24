@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "froid",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };

@@ -4,6 +4,5 @@ window.TDM_PAGE = {
   resume: "Samba",
   backlinkHref: "../../index.html",
   gallery: [
-
   ]
 };
