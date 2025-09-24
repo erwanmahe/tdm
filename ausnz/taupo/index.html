@@ -3,179 +3,70 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Taupo</title>
+    <title>Arequipa</title>
     <link rel="stylesheet" href="../../assets/styles.css" />
-
-    <!-- Theme fonts and styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Material+Icons&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../../assets/fonts.css" />
     <link rel="stylesheet" href="../../assets/theme.css" />
     <link rel="stylesheet" href="../../assets/lightbox.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="app" class="wrapper" v-scope="TDM_APP()" v-cloak>
       <aside class="sidebar">
         <a class="brand" href="../../index.html">Voyages</a>
         <nav class="nav">
-          <div
-            class="section"
-            style="
-              margin: 10px 0 6px;
-              color: #9ca3af;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 0.08em;
-            "
-          >
-            europe
+          <div v-for="group in nav">
+            <div class="section" :style="sectionStyle">{{ group.section }}</div>
+            <a
+              v-for="l in group.links"
+              class="link"
+              :class="{ active: isActive(l.href) }"
+              :href="l.href"
+            >
+              {{ l.label }}
+            </a>
           </div>
-          <a class="link" href="../../europe/madrid/index.html">Madrid</a>
-          <div
-            class="section"
-            style="
-              margin: 10px 0 6px;
-              color: #9ca3af;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 0.08em;
-            "
-          >
-            amsud
-          </div>
-          <a class="link" href="../../amsud/lima/index.html">Lima</a>
-          <a class="link" href="../../amsud/pisco/index.html">Pisco</a>
-          <a class="link" href="../../amsud/arequipa/index.html">Arequipa</a>
-          <a class="link" href="../../amsud/cuzco/index.html">Cuzco</a>
-          <a class="link" href="../../amsud/lapaz/index.html">La Paz</a>
-          <a class="link" href="../../amsud/uyuni/index.html">Uyuni</a>
-          <a class="link" href="../../amsud/salta/index.html">Salta</a>
-          <a class="link" href="../../amsud/mendoza/index.html">Mendoza</a>
-          <a class="link" href="../../amsud/saopaulo/index.html">São Paulo</a>
-          <a class="link" href="../../amsud/parati/index.html">Parati</a>
-          <a class="link" href="../../amsud/rio/index.html">Rio</a>
-          <a class="link" href="../../amsud/salvador/index.html">Salvador</a>
-          <a class="link" href="../../amsud/olinda/index.html">Olinda</a>
-          <a class="link" href="../../amsud/natal/index.html">Natal</a>
-          <a class="link" href="../../amsud/rio2/index.html">Rio</a>
-          <a class="link" href="../../amsud/iguazu/index.html">Foz de Iguazu</a>
-          <a class="link" href="../../amsud/buenosaires/index.html"
-            >Buenos Aires</a
-          >
-          <a class="link" href="../../amsud/santiago/index.html">Santiago</a>
-          <a class="link" href="../../amsud/havana/index.html">La Havane</a>
-          <a class="link" href="../../amsud/cienfuegos/index.html"
-            >Cienfuegos</a
-          >
-          <a class="link" href="../../amsud/havana2/index.html">La Havane</a>
-          <div
-            class="section"
-            style="
-              margin: 10px 0 6px;
-              color: #9ca3af;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 0.08em;
-            "
-          >
-            ausnz
-          </div>
-          <a class="link" href="../../ausnz/auckland/index.html">Auckland</a>
-          <a class="link" href="../../ausnz/tororua/index.html">Tororua</a>
-          <a class="link active" href="../../ausnz/taupo/index.html">Taupo</a>
-          <a class="link" href="../../ausnz/wellington/index.html"
-            >Wellington</a
-          >
-          <a class="link" href="../../ausnz/picton/index.html">Picton</a>
-          <a class="link" href="../../ausnz/melbourne/index.html">Melbourne</a>
-          <a class="link" href="../../ausnz/darwin/index.html">Darwin</a>
-          <a class="link" href="../../ausnz/cairns/index.html">Cairns</a>
-          <a class="link" href="../../ausnz/sydney/index.html">Sydney</a>
-          <div
-            class="section"
-            style="
-              margin: 10px 0 6px;
-              color: #9ca3af;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 0.08em;
-            "
-          >
-            asie
-          </div>
-          <a class="link" href="../../asie/bangkok/index.html">Bangkok</a>
-          <a class="link" href="../../asie/kohsamui/index.html">Koh Samui</a>
-          <a class="link" href="../../asie/bangkok2/index.html">Bangkok</a>
-          <a class="link" href="../../asie/kohchang/index.html">Koh Chang</a>
-          <a class="link" href="../../asie/chiangmai/index.html">Chiang Mai</a>
-          <a class="link" href="../../asie/chiangrai/index.html">Chiang Rai</a>
-          <a class="link" href="../../asie/luangprabang/index.html"
-            >Luang Prabang</a
-          >
-          <a class="link" href="../../asie/vientiane/index.html">Vientiane</a>
-          <a class="link" href="../../asie/pakse/index.html">Pakse</a>
-          <a class="link" href="../../asie/donkhong/index.html">Don Khong</a>
-          <a class="link" href="../../asie/stungtreng/index.html"
-            >Stung Treng</a
-          >
-          <a class="link" href="../../asie/phnompenh/index.html">Phnom Penh</a>
-          <a class="link" href="../../asie/angkor/index.html">Angkor</a>
-          <a class="link" href="../../asie/colombo/index.html">Colombo</a>
-          <a class="link" href="../../asie/kandy/index.html">Kandy</a>
-          <a class="link" href="../../asie/nuwaraeliya/index.html"
-            >Nuwara Eliya</a
-          >
-          <a class="link" href="../../asie/kandy2/index.html">Kandy</a>
-          <a class="link" href="../../asie/sigiriya/index.html">Sigiriya</a>
-          <a class="link" href="../../asie/trincomalee/index.html"
-            >Trincomalée</a
-          >
-          <a class="link" href="../../asie/kandy3/index.html">Kandy</a>
-          <a class="link" href="../../asie/chennai/index.html">Chennai</a>
-          <a class="link" href="../../asie/bangalore/index.html">Bangalore</a>
-          <a class="link" href="../../asie/goa/index.html">Goa</a>
-          <a class="link" href="../../asie/mumbay/index.html">Mumbay</a>
-          <a class="link" href="../../asie/varanasi/index.html">Varanasi</a>
-          <a class="link" href="../../asie/katmandou/index.html">Katmandou</a>
-          <a class="link" href="../../asie/bali/index.html">Bali</a>
-          <a class="link" href="../../asie/hongkong/index.html">Hong Kong</a>
-          <div
-            class="section"
-            style="
-              margin: 10px 0 6px;
-              color: #9ca3af;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 0.08em;
-            "
-          >
-            afrique
-          </div>
-          <a class="link" href="../../afrique/nairobi/index.html">Nairobi</a>
-          <a class="link" href="../../afrique/mombasa/index.html">Mombasa</a>
-          <a class="link" href="../../afrique/tiwi/index.html">Tiwi Beach</a>
-          <a class="link" href="../../afrique/zanzibar/index.html">Zanzibar</a>
-          <a class="link" href="../../afrique/capetown/index.html">Cape Town</a>
         </nav>
       </aside>
 
       <main class="content">
+        <div id="top" aria-hidden="true"></div>
         <div class="backlink">
-          <a data-lightbox="gallery" href="../../index.html"
+          <a data-lightbox="gallery" :href="page.backlinkHref"
             >← Retour à la carte</a
           >
         </div>
-        <div class="titre">Taupo</div>
-        <p></p>
-        <div class="resume">Craters of the Moon</div>
-        <p>
-          <a id="texte"></a>
-        </p>
 
-        <div class="texte">
+        <div class="titre">{{ computedTitle() }}</div>
+        <p></p>
+        <div class="resume">{{ computedResume() }}</div>
+
+
+        <div class="gallery">
+          <a
+            v-for="it in page.gallery.slice(0,4)"
+            data-lightbox="gallery"
+            :href="it.href"
+            target="_blank"
+            :title="it.caption || ''"
+          >
+            <img loading="lazy" :src="it.src" :alt="it.caption || ''" />
+          </a>
+          <a
+            v-if="page.gallery && page.gallery.length > 4"
+            class="more-link"
+            href="./photos/index.html"
+            title="Voir toute la galerie"
+            style="text-decoration: none"
+          >
+            <div style="height:140px;display:flex;align-items:center;justify-content:center;">
+              <svg viewBox="0 0 24 24" width="80" height="80" aria-hidden="true" focusable="false">
+                <path d="M9 6l6 6-6 6" fill="none" stroke="#9ca3af" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div id="texte"></div>
+<div class="texte">
           <h2>samedi 3 mai</h2>
           Nous arrivons sur Taupo, superbe vue sur le lac, entre chien et loup.
           Le ciel, pas le lac. Je prends une chambre à la YHA.
@@ -202,8 +93,28 @@
             <a class="backtop" href="#top">Revenir en haut</a>
           </p>
         </div>
+        <p></p>
+        <p class="pager">
+          <span v-if="prevLink()">
+            <a :href="prevLink().href"
+              >← Etape précédente: {{ prevLink().label }}</a
+            >
+          </span>
+          <span v-if="nextLink()" style="margin-left: 16px">
+            <a :href="nextLink().href"
+              >Etape suivante: {{ nextLink().label }} →</a
+            >
+          </span>
+        </p>
       </main>
     </div>
+
+    <!-- Data and app scripts for petite-vue (local, offline) -->
+    <script src="../../assets/nav-data.js"></script>
+    <script src="./data.js"></script>
+    <script src="../../assets/app.js"></script>
+    <script src="../../assets/petite-vue.iife.js"></script>
+    <script src="../../assets/mount.js"></script>
 
     <!-- Theme scripts -->
     <script src="../../assets/lightbox.js"></script>
