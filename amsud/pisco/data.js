@@ -7,67 +7,67 @@ window.TDM_PAGE = {
   {
     "href": "photos/ballestas/bebescormorans.jpg",
     "src": "photos/ballestas/mini_bebescormorans.jpg",
-    "caption": ""
+    "caption": "Bébés cormorans"
   },
   {
     "href": "photos/ballestas/cormorans.jpg",
     "src": "photos/ballestas/mini_cormorans.jpg",
-    "caption": "Les cormorans peignent leurs petits en jaune pour mieux les reconnaitre"
+    "caption": "Les cormorans peignent leurs petits en jaune pour mieux les reconnaître"
   },
   {
     "href": "photos/ballestas/male2.jpg",
     "src": "photos/ballestas/mini_male2.jpg",
-    "caption": "Les pires glandeurs sont surtout les males, il faut bien le reconnaitre."
+    "caption": "Les pires glandeurs sont surtout les mâles, il faut bien le reconnaître."
   },
   {
     "href": "photos/ballestas/male.jpg",
     "src": "photos/ballestas/mini_male.jpg",
-    "caption": "L'otarie ne fait rien de la journee (c'est vrai qu'il chasse la nuit)."
+    "caption": "L'otarie ne fait rien de la journée (c'est vrai qu'il chasse la nuit)."
   },
   {
     "href": "photos/ballestas/oiseaux.jpg",
     "src": "photos/ballestas/mini_oiseaux.jpg",
-    "caption": "1 point noir = 1 oiseau (je pense m'ameliorer en photo a mesure que le temps passe)"
+    "caption": "1 point noir = 1 oiseau (je pense m'améliorer en photo à mesure que le temps passe)"
   },
   {
     "href": "photos/ballestas/otarieescalade.jpg",
     "src": "photos/ballestas/mini_otarieescalade.jpg",
-    "caption": "Une cordee d'otaries en pleine ascension (les explications en anglais parlent de lions de mer, je suppose que c'est la meme chose?)"
+    "caption": "Une cordée d'otaries en pleine ascension (les explications en anglais parlent de lions de mer, je suppose que c'est la même chose?)"
   },
   {
     "href": "photos/ballestas/otaries.jpg",
     "src": "photos/ballestas/mini_otaries.jpg",
-    "caption": ""
+    "caption": "Des otaries sur un rocher"
   },
   {
     "href": "photos/ballestas/pingouins.jpg",
     "src": "photos/ballestas/mini_pingouins.jpg",
-    "caption": "Les pingouins sont partout!\n \n \n \n\n\n \n   "
+    "caption": "Les pingouins sont partout!"
   },
   {
     "href": "photos/ballestas/plage1.jpg",
     "src": "photos/ballestas/mini_plage1.jpg",
-    "caption": ""
+    "caption": "Plage sur les Îles Ballestas"
   },
   {
     "href": "photos/ballestas/plage2.jpg",
     "src": "photos/ballestas/mini_plage2.jpg",
-    "caption": "L'inconvenient d'habiter dans une reserve: les plages sont bondees"
+    "caption": "L'inconvénient d'habiter dans une réserve: les plages sont bondées"
   },
   {
     "href": "photos/ballestas/vautours.jpg",
     "src": "photos/ballestas/mini_vautours.jpg",
-    "caption": "Oui, ce sont des vautours... \n \n \n \n\n\n \n   "
+    "caption": "Oui, ce sont des vautours..."
   },
   {
     "href": "photos/camion_pecheurs.jpg",
     "src": "photos/mini_camion_pecheurs.jpg",
-    "caption": "Un village de pecheurs debordant d'activite"
+    "caption": "Un village de pêcheurs débordant d'activité"
   },
   {
     "href": "photos/cathedrale.jpg",
     "src": "photos/mini_cathedrale.jpg",
-    "caption": ""
+    "caption": "Cathédrale de Pisco"
   },
   {
     "href": "photos/mnm_mirador.jpg",
@@ -77,7 +77,7 @@ window.TDM_PAGE = {
   {
     "href": "photos/panamericana/bus_aqp.jpg",
     "src": "photos/panamericana/mini_bus_aqp.jpg",
-    "caption": ""
+    "caption": "Bus sur la Panamericana"
   },
   {
     "href": "photos/panamericana/panam1.jpg",
