@@ -2,28 +2,33 @@ Je vais te donner des textes (1 par prompt) et je voudrais que tu appliques à c
 Tu es un expert en orthographe et en grammaire francaise. Corrige les accents sur ce texte en francais. Attention, seulement les accents (accords, etc...), sans modifier ni les mots, ni le style, ni la syntaxe html. Si tu as un doute je préfère que tu ne corriges pas et que tu me poses la question. Sans ajouter d’espace insécable (           ).
 
 _______________________________________________
-
 Mon site Static_site possède actuellement un menu de navigation à gauche avec une barre d'ascenceur.
 Je voudrais la faire disparaitre tout en gardant la navigation à la souris active dans le menu de gauche.
 Sans rien faire, dis-moi comment faire ?
 
 _______________________________________________
-
 MENU GAUCHE :
 -Remplacer le mot "voyage" par "La carte"
-
 Mon site Static_site possède actuellement un menu de navigation à gauche. Je voudrais que tu remplaces dans ce menu le mot "voyage" par "La carte".
-
 
 HOME :
 - Remplacer Carte des villes PAR "Mon tour du monde pas à pas"
-le centrer et grossir
 - Ajouter "Carte interactive" en plus petit sous le titre
+- Centrer les 2
 
+Je voudrais que les textes du haut "Mon tour du monde pas à pas" et "Carte interactive" soient centrés sur la zone. Sans rien faire, dis-moi comment faire ?
+
+_______________________________________________
 SUR CHAQUE PAGE :
 - Oter "--- \n"
+Certaines pages du site contiennent les caractères "---", je voudrais que tu les supprimes sans toucher à rien d'autre.
 - Aligner "Etape suivante: ..." à droite
+Je voudrais que les liens Etape suivante: de chaque page index.html soient alignés à droite de la page sans changer la position verticale. Sans rien faire, dis-moi comment faire ?
+- Certaines pages (ex : Uyuni, Varanasi) n'ont pas le lien "Revenir en haut" et d'autres en ont 2 (ex : Goa, Donkhong) L'ajouter quand il manque et le supprimer quand il y en a trop.
+Certains fichiers index.html ont le code <p><a class="backtop" href="#top">Revenir en haut</a></p> à la toute fin de la DIV Class texte. Je voudrais que tu trouves les fichiers index qui n'ont pas cette ligne et que tu l'ajoutes sans modifier les autres fichiers.
+- Mettre "Revenir en haut" sur la même ligne que "Etape précédente:" mais centrer.
 
 
+_______________________________________________
 CHANGER LES COULEURS DU SITE
 AMELIORER LE FOND DE CARTE
