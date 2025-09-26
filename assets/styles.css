@@ -2,7 +2,7 @@
   /* Nouvelles couleurs */
   --bg: #a52a2ad6;        /* brown */
   --panel: #A0522D;     /* sienna */
-  --panel-2: #d2691ee1;   /* chocolate */
+  --panel-2: #C8AD7F;   /* chocolate */
   --text: #614e33;      /* blanchedalmond */
   --muted: #FFF8DC;     /* cornsilk */
   --accent: #8b4728;    /* darkgoldenrod */
@@ -42,7 +42,7 @@ body {
   min-height: 100vh;
 }
 .sidebar {
-  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  background: var(--panel);
   border-right: 1px solid #1f2937;
   padding: 20px;
   position: sticky;

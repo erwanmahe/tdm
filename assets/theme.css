@@ -3,7 +3,7 @@
   /* Nouvelles couleurs */
   --md-bg: #a52a2ad6;        /* brown */
   --md-surface: #A0522D;   /* sienna */
-  --md-surface-2: #d2691ee1; /* chocolate */
+  --md-surface-2: #C8AD7F; /* chocolate */
   --md-text: #614e33;      /* blanchedalmond */
   --md-muted: #FFF8DC;     /* cornsilk */
   --md-primary: #8b4728;   /* darkgoldenrod */
@@ -39,7 +39,7 @@ body {
   gap: 0;
 }
 .sidebar {
-  background: linear-gradient(180deg, var(--md-surface), var(--md-surface-2));
+  background: var(--md-surface);
   border-right: 1px solid var(--md-border);
   box-shadow: var(--md-shadow);
   color: var(--md-accent-light);
@@ -96,7 +96,7 @@ body {
   font-size: 17px;
 }
 .texte h2 {
-  color: var(--md-secondary);
+  color: var(--md-muted);
   font-size: 22px;
   margin-top: 1.4em;
 }
@@ -155,9 +155,9 @@ svg#worldmap {
   border-radius: 12px;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
   background: radial-gradient(
-    800px 400px at 80% 20%,
+    800px 400px at 60% 40%,
     rgba(184, 134, 11, 0.1),
-    rgba(165, 42, 42, 0.1) 40%,
+    rgba(146, 84, 14, 0.245) 40%,
     transparent 70%
   );
 }
