@@ -9,7 +9,7 @@ window.TDM_NAV = [
     ]
   },
   {
-    section: 'amsud',
+    section: 'amerique du sud',
     links: [
       { label: 'Lima', href: '../../amsud/lima/index.html' },
       { label: 'Pisco', href: '../../amsud/pisco/index.html' },
@@ -35,7 +35,7 @@ window.TDM_NAV = [
     ]
   },
   {
-    section: 'ausnz',
+    section: 'australie nouvelle-zelande',
     links: [
       { label: 'Auckland', href: '../../ausnz/auckland/index.html' },
       { label: 'Tororua', href: '../../ausnz/tororua/index.html' },

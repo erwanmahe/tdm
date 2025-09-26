@@ -102,8 +102,9 @@
       resolveSrc(p) { return this.resolvePath(p); },
       sectionStyle: {
         margin: '10px 0 6px',
-        color: '#9ca3af',
+        color: '#614e33',
         fontSize: '12px',
+        fontWeight: 'bold',
         textTransform: 'uppercase',
         letterSpacing: '0.08em'
       }

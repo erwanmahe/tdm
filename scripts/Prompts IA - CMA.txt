@@ -26,9 +26,22 @@ Certaines pages du site contiennent les caractères "---", je voudrais que tu le
 Je voudrais que les liens Etape suivante: de chaque page index.html soient alignés à droite de la page sans changer la position verticale. Sans rien faire, dis-moi comment faire ?
 - Certaines pages (ex : Uyuni, Varanasi) n'ont pas le lien "Revenir en haut" et d'autres en ont 2 (ex : Goa, Donkhong) L'ajouter quand il manque et le supprimer quand il y en a trop.
 Certains fichiers index.html ont le code <p><a class="backtop" href="#top">Revenir en haut</a></p> à la toute fin de la DIV Class texte. Je voudrais que tu trouves les fichiers index qui n'ont pas cette ligne et que tu l'ajoutes sans modifier les autres fichiers.
+
+
+
 - Mettre "Revenir en haut" sur la même ligne que "Etape précédente:" mais centrer.
-
-
 _______________________________________________
 CHANGER LES COULEURS DU SITE
+Je souhaiterais que tu modifie la palette de couleur du site en utlisiant ces couleurs :
+sienna	#A0522D
+chocolate	#D2691E
+cornsilk	#FFF8DC
+blanchedalmond	#FFEBCD
+rosybrown	#BC8F8F
+bisque	#FFE4C4
+navajowhite	#FFDEAD
+brown	#A52A2A
+burlywood	#DEB887
+darkgoldenrod	#B8860B
+
 AMELIORER LE FOND DE CARTE

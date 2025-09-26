@@ -1,13 +1,16 @@
 /* Material-inspired theme overrides for static_site */
 :root {
-  --md-bg: #0b1020;
-  --md-surface: #111827;
-  --md-surface-2: #0d1528;
-  --md-text: #e5e7eb;
-  --md-muted: #9aa4b2;
-  --md-primary: #3b82f6;
-  --md-secondary: #22d3ee;
-  --md-border: #1f2937;
+  /* Nouvelles couleurs */
+  --md-bg: #a52a2ad6;        /* brown */
+  --md-surface: #A0522D;   /* sienna */
+  --md-surface-2: #d2691ee1; /* chocolate */
+  --md-text: #614e33;      /* blanchedalmond */
+  --md-muted: #FFF8DC;     /* cornsilk */
+  --md-primary: #8b4728;   /* darkgoldenrod */
+  --md-secondary: #DEB887; /* burlywood */
+  --md-border: #BC8F8F;    /* rosybrown */
+  --md-accent-light: #FFE4C4; /* bisque */
+  --md-accent-light-2: #FFDEAD; /* navajowhite */
   --md-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
@@ -26,13 +29,10 @@ body {
     Arial;
 }
 body {
-  background: radial-gradient(
-    1200px 600px at 0% 0%,
-    #121826 0,
-    var(--md-bg) 50%,
-    #0a0f1e 100%
-  );
+  background: var(--md-surface-2);
   color: var(--md-text);
+  line-height: 1.6;
+  min-height: 100vh;
 }
 
 .wrapper {
@@ -42,6 +42,7 @@ body {
   background: linear-gradient(180deg, var(--md-surface), var(--md-surface-2));
   border-right: 1px solid var(--md-border);
   box-shadow: var(--md-shadow);
+  color: var(--md-accent-light);
 }
 .brand {
   font-weight: 800;
@@ -53,7 +54,7 @@ body {
 }
 
 .nav a {
-  color: #cbd5e1;
+  color: var(--md-accent-light);
   display: block;
   padding: 8px 10px;
   border-radius: 8px;
@@ -62,13 +63,13 @@ body {
     color 0.15s ease;
 }
 .nav a:hover {
-  background: rgba(59, 130, 246, 0.15);
-  color: white;
+  background: rgba(184, 134, 11, 0.2);
+  color: var(--md-accent-light-2);
 }
 .nav a.active {
-  background: rgba(34, 211, 238, 0.18);
-  color: white;
-  box-shadow: inset 0 0 0 1px rgba(34, 211, 238, 0.35);
+  background: rgba(222, 184, 135, 0.25);
+  color: var(--md-accent-light-2);
+  box-shadow: inset 0 0 0 1px var(--md-primary);
 }
 
 .content {
@@ -103,8 +104,11 @@ body {
 .backlink a {
   color: var(--md-primary);
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 .backlink a:hover {
+  color: var(--md-accent-light-2);
   text-decoration: underline;
 }
 
@@ -118,7 +122,7 @@ body {
   display: block;
   border-radius: 10px;
   overflow: hidden;
-  background: #0b1220;
+  background: var(--md-surface);
   border: 1px solid var(--md-border);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
   transition:
@@ -127,7 +131,8 @@ body {
 }
 .gallery a:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+  border-color: var(--md-primary);
 }
 .gallery img {
   width: 100%;
@@ -151,8 +156,8 @@ svg#worldmap {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
   background: radial-gradient(
     800px 400px at 80% 20%,
-    rgba(34, 211, 238, 0.06),
-    rgba(59, 130, 246, 0.05) 40%,
+    rgba(184, 134, 11, 0.1),
+    rgba(165, 42, 42, 0.1) 40%,
     transparent 70%
   );
 }
@@ -166,23 +171,30 @@ svg#worldmap {
 
 /* Links in text */
 .texte a {
-  color: #93c5fd;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 .texte a:hover {
-  color: #bfdbfe;
+  color: #D2691E;
+  text-decoration: underline;
 }
 
 /* Code highlighting placeholder (in case of snippets) */
 pre,
 code {
-  background: #0c1323;
+  background: var(--md-surface);
   border: 1px solid var(--md-border);
   border-radius: 8px;
   padding: 2px 6px;
+  color: var(--md-accent-light);
 }
 pre {
   padding: 10px 12px;
   overflow: auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid var(--md-primary);
 }
 
 @media (max-width: 900px) {
