@@ -167,21 +167,18 @@
           l'hôtel, complètement dans le gaz. J'avais prévu de faire la visite de
           la ville en fin de matinée, mais je reste buller à l'hôtel, jusqu'à
           l'heure du car pour Ubatuba, à 16h.
-          <p>
-          <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
+          
           </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente : {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante : {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>

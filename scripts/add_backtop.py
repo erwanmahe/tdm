@@ -9,7 +9,7 @@ def add_backtop_to_files(root_dir):
     backtop_pattern = re.compile(r'<a class="backtop" href="#top">Revenir en haut</a>')
     
     # Texte à ajouter
-    backtop_html = '\n        <p><a class="backtop" href="#top">Revenir en haut</a></p>\n    </div>'
+    backtop_html = '\n        \n    </div>'
     
     # Parcourir tous les fichiers HTML
     for root, dirs, files in os.walk(root_dir):

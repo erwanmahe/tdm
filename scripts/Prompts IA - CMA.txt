@@ -25,7 +25,7 @@ Certaines pages du site contiennent les caractères "---", je voudrais que tu le
 - Aligner "Etape suivante : ..." à droite
 Je voudrais que les liens Etape suivante : de chaque page index.html soient alignés à droite de la page sans changer la position verticale. Sans rien faire, dis-moi comment faire ?
 - Certaines pages (ex : Uyuni, Varanasi) n'ont pas le lien "Revenir en haut" et d'autres en ont 2 (ex : Goa, Donkhong) L'ajouter quand il manque et le supprimer quand il y en a trop.
-Certains fichiers index.html ont le code <p><a class="backtop" href="#top">Revenir en haut</a></p> à la toute fin de la DIV Class texte. Je voudrais que tu trouves les fichiers index qui n'ont pas cette ligne et que tu l'ajoutes sans modifier les autres fichiers.
+Certains fichiers index.html ont le code  à la toute fin de la DIV Class texte. Je voudrais que tu trouves les fichiers index qui n'ont pas cette ligne et que tu l'ajoutes sans modifier les autres fichiers.
 
 
 

@@ -1,3 +1,7 @@
+/* Hide elements with v-cloak until Vue is loaded */
+[v-cloak] > * { display:none; }
+[v-cloak]::before { content: ''; }
+
 :root {
   /* Nouvelles couleurs */
   --bg: #a52a2ad6;        /* brown */

@@ -271,21 +271,18 @@
           reparle politique. C'est vrai que c'est bientôt les élections ici, les
           gens sont dégoûtés par les candidats en présence, mais ils se sentent
           quand même un peu concernés. Le vote est obligatoire, ça aide un peu.
-          <p>
-          <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
+          
           </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente : {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante : {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>
