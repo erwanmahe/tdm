@@ -12,7 +12,7 @@
   <body>
     <div id="app" class="wrapper" v-scope="TDM_APP()" v-cloak>
       <aside class="sidebar">
-        <a class="brand" href="../../index.html">Voyages</a>
+        <a class="brand" href="../../index.html">La carte</a>
         <nav class="nav">
           <div v-for="group in nav">
             <div class="section" :style="sectionStyle">{{ group.section }}</div>
@@ -66,44 +66,41 @@
           </a>
         </div>
         <div id="texte"></div>
-<div class="texte">
+        <div class="texte">
           <h2>samedi 3 mai</h2>
           Nous arrivons sur Taupo, superbe vue sur le lac, entre chien et loup.
           Le ciel, pas le lac. Je prends une chambre à la YHA.
           <p>
-            J'essaie de sortir (après tout, on est samedi), mais l'ambiance "far
-            ouest" me rafraichit un peu.
+          J'essaie de sortir (après tout, on est samedi), mais l'ambiance "far
+          ouest" me rafraîchit un peu.
           </p>
           <p></p>
           <h2>dimanche 4 mai</h2>
-          Sur les conseils des residents de la YHA, je prends le "Hot bus" qui
-          fait le tour des attractions locales. Il me depose aux 'craters of the
-          moon", une zone geothermale peu éténdue mais très active : geysers
+          Sur les conseils des résidents de la YHA, je prends le "Hot bus" qui
+          fait le tour des attractions locales. Il me dépose aux "craters of the
+          moon", une zone géothermale peu étendue mais très active : geysers
           d'eau, odeurs d'acide, bouillonnement de boue, bref ce sont les terres
-          noires de Tolkien. Le hot bus me recupere sur le chemin du retour, et
-          me depose 5 mn aux Haku Falls, jolies.
+          noires de Tolkien. Le hot bus me récupère sur le chemin du retour, et
+          me dépose 5 mn aux Haku Falls, jolies.
           <p>
-            Et je prends le bus pour Wellington, ou nous arrivons sous la pluie,
-            alors que le voyage avait fort bien commence, dans la campagne
-            moutonneus baignée dans la lumiere de fin d'après-midi que je
-            commence a connaitre par cœur. Et je debarque au YHA central, meme
-            principe que le ACB : massif, professionnel, efficace.
+          Et je prends le bus pour Wellington, où nous arrivons sous la pluie,
+          alors que le voyage avait fort bien commencé, dans la campagne
+          moutonneuse baignée dans la lumière de fin d'après-midi que je
+          commence à connaître par cœur. Et je débarque au YHA central, même
+          principe que le ACB : massif, professionnel, efficace.
           </p>
-          <p>
-            <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
-        </div>
+          
+          </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente: {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante: {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>

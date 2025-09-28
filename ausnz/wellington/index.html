@@ -12,7 +12,7 @@
   <body>
     <div id="app" class="wrapper" v-scope="TDM_APP()" v-cloak>
       <aside class="sidebar">
-        <a class="brand" href="../../index.html">Voyages</a>
+        <a class="brand" href="../../index.html">La carte</a>
         <nav class="nav">
           <div v-for="group in nav">
             <div class="section" :style="sectionStyle">{{ group.section }}</div>
@@ -66,34 +66,31 @@
           </a>
         </div>
         <div id="texte"></div>
-<div class="texte">
+        <div class="texte">
           <h2>lundi 5 - mardi 6 mai</h2>
-          Reveil tôt, un petit tour sur le port endormi. J'ai pris un ticket
-          pour Picton, sur l'île sud, en fin d'après-midi (pour la lumiere).
+          Réveil tôt, un petit tour sur le port endormi. J'ai pris un ticket
+          pour Picton, sur l'île sud, en fin d'après-midi (pour la lumière).
           <p>
-            Un petit malentendu avec un chauffeur de bus, et me voila transporte
-            à l'autre bout de la baie. Je devrais être contrarie, mais la vue
+            Un petit malentendu avec un chauffeur de bus, et me voilà transporté
+            à l'autre bout de la baie. Je devrais être contrarié, mais la vue
             est superbe, et je n'ai pas d'emploi du temps, alors...
           </p>
           <p>
-            Retour a Wellington pour prendre le ferry, qui appareille juste pour
+            Retour à Wellington pour prendre le ferry, qui appareille juste pour
             le coucher de soleil, pour une traversée de 3 heures.
           </p>
-          <p>
-            <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
+          
         </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente: {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante: {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>

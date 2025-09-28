@@ -1,7 +1,7 @@
 // Per-page data for petite-vue. Works offline (file://) as plain JS.
 window.TDM_PAGE = {
   title: "Chiang Mai",
-  resume: "Les elephants",
+  resume: "Les éléphants",
   backlinkHref: "../../index.html",
   gallery: [
   {

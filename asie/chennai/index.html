@@ -12,7 +12,7 @@
   <body>
     <div id="app" class="wrapper" v-scope="TDM_APP()" v-cloak>
       <aside class="sidebar">
-        <a class="brand" href="../../index.html">Voyages</a>
+        <a class="brand" href="../../index.html">La carte</a>
         <nav class="nav">
           <div v-for="group in nav">
             <div class="section" :style="sectionStyle">{{ group.section }}</div>
@@ -107,21 +107,18 @@
           teintées alternativement jaune/bleu me donnent l'impression de
           découvrir les paysages de l'Inde dans le générique extrêmement long
           d'un film d'Almodóvar.
-          <p>
-            <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
+          
         </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente: {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante: {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>

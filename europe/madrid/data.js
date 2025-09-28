@@ -1,7 +1,7 @@
 // Per-page data for petite-vue. Works offline (file://) as plain JS.
 window.TDM_PAGE = {
   title: "Madrid",
-  resume: "Premiere etape de mon voyage. Il fait froid",
+  resume: "Première étape de mon voyage. Il fait froid",
   backlinkHref: "../../index.html",
   gallery: [
   {

@@ -12,7 +12,7 @@
   <body>
     <div id="app" class="wrapper" v-scope="TDM_APP()" v-cloak>
       <aside class="sidebar">
-        <a class="brand" href="../../index.html">Voyages</a>
+        <a class="brand" href="../../index.html">La carte</a>
         <nav class="nav">
           <div v-for="group in nav">
             <div class="section" :style="sectionStyle">{{ group.section }}</div>
@@ -66,27 +66,24 @@
           </a>
         </div>
         <div id="texte"></div>
-<div class="texte">
+        <div class="texte">
           <h2>18-19-20 mai</h2>
-          The Maze, AJ qui porte bien son nom, c'est un vrai labyrinthe de
-          couloirs. Je suis complétément decale, je me promene autour de l'Opera
-          House a 5AM, je dors la journée, bref il est temps que je change de
+          Le Maze, auberge de jeunesse qui porte bien son nom, c'est un vrai labyrinthe de
+          couloirs. Je suis complètement décalé, je me promène autour de l'Opera
+          House à 5h du matin, je dors la journée, bref il est temps que je change de
           continent.
-          <p>
-            <a class="backtop" href="#top">Revenir en haut</a>
-          </p>
-        </div>
+          
+          </div>
         <p></p>
         <p class="pager">
           <span v-if="prevLink()">
-            <a :href="prevLink().href"
-              >← Etape précédente: {{ prevLink().label }}</a
-            >
+            <a :href="prevLink().href">← Etape précédente : {{ prevLink().label }}</a>
+          </span>
+          <span style="text-align=center">
+            <a href="#top">Revenir en haut</a>
           </span>
           <span v-if="nextLink()" style="margin-left: 16px">
-            <a :href="nextLink().href"
-              >Etape suivante: {{ nextLink().label }} →</a
-            >
+            <a :href="nextLink().href">Etape suivante : {{ nextLink().label }} →</a>
           </span>
         </p>
       </main>

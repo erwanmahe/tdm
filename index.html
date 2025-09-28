@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Carte des villes</title>
+    <title>Mon tour du monde pas à pas</title>
     <link rel="stylesheet" href="assets/styles.css" />
 
     <!-- Theme fonts and styles -->
@@ -17,16 +17,17 @@
     <link rel="stylesheet" href="assets/lightbox.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="app" class="wrapper">
       <aside class="sidebar">
-        <a class="brand" href="index.html">Voyages</a>
+        <a class="brand" href="index.html">La carte</a>
         <nav class="nav">
           <div
             class="section"
             style="
               margin: 10px 0 6px;
-              color: #9ca3af;
+              color: #614e33;
               font-size: 12px;
+              font-weight: bold;
               text-transform: uppercase;
               letter-spacing: 0.08em;
             "
@@ -38,13 +39,14 @@
             class="section"
             style="
               margin: 10px 0 6px;
-              color: #9ca3af;
+              color: #614e33;
               font-size: 12px;
+              font-weight: bold;
               text-transform: uppercase;
               letter-spacing: 0.08em;
             "
           >
-            amsud
+            amerique du sud
           </div>
           <a class="link" href="amsud/lima/index.html">Lima</a>
           <a class="link" href="amsud/pisco/index.html">Pisco</a>
@@ -71,13 +73,14 @@
             class="section"
             style="
               margin: 10px 0 6px;
-              color: #9ca3af;
+              color: #614e33;
               font-size: 12px;
+              font-weight: bold;
               text-transform: uppercase;
               letter-spacing: 0.08em;
             "
           >
-            ausnz
+            australie nouvelle-zelande
           </div>
           <a class="link" href="ausnz/auckland/index.html">Auckland</a>
           <a class="link" href="ausnz/tororua/index.html">Tororua</a>
@@ -92,8 +95,9 @@
             class="section"
             style="
               margin: 10px 0 6px;
-              color: #9ca3af;
+              color: #614e33;
               font-size: 12px;
+              font-weight: bold;
               text-transform: uppercase;
               letter-spacing: 0.08em;
             "
@@ -132,8 +136,9 @@
             class="section"
             style="
               margin: 10px 0 6px;
-              color: #9ca3af;
+              color: #614e33;
               font-size: 12px;
+              font-weight: bold;
               text-transform: uppercase;
               letter-spacing: 0.08em;
             "
@@ -149,7 +154,11 @@
       </aside>
 
       <main class="content">
-        <div class="header"><div class="h1">Carte des villes</div></div>
+        <div class="header">
+          <div class="h1">2003 : Mon tour du monde pas à pas</div>
+          <div class="h2">Carte interactive</div>
+        </div>
+
         <svg
           id="worldmap"
           width="100%"
@@ -289,8 +298,8 @@
               const land = topojson.feature(world, world.objects.land);
               const landPath = el("path", {
                 d: path(land),
-                fill: "#334155",
-                stroke: "#1f2937",
+                fill: "#955628",
+                stroke: "#5B3C11",
                 "stroke-width": 1,
               });
               root.appendChild(landPath);
@@ -830,7 +839,7 @@
                 py,
                 x,
                 y,
-                stroke = "#22d3ee",
+                stroke = "#E1CE9A",
                 curveScale = 0.15,
                 curveSign = 1,
                 forceCurve = false,
@@ -917,7 +926,7 @@
                   bl: len,
                 });
               }
-              function drawStraight(px, py, x, y, stroke = "#22d3ee") {
+              function drawStraight(px, py, x, y, stroke = "#E1CE9A") {
                 const d =
                   "M " +
                   px.toFixed(1) +
@@ -977,7 +986,7 @@
                     py,
                     x,
                     y,
-                    "#22d3ee",
+                    "#E1CE9A",
                     cScale,
                     cSign,
                     MUST_CURVE,
@@ -1013,7 +1022,7 @@
                     const k = bestShift(ax, hx, width);
                     if (k === 0) {
                       // No wrap needed, draw direct straight link
-                      drawStraight(hx, hy, ax, ay, "#22d3ee");
+                      drawStraight(hx, hy, ax, ay, "#E1CE9A");
                     } else if (k === -1) {
                       // Shift Auckland left by width, split at x=0
                       const axs = ax - width;
@@ -1022,9 +1031,9 @@
                         const t0 = (0 - hx) / denom;
                         const y0 = hy + (ay - hy) * t0; // intersection Y at x=0
                         // Left piece: Havana → west border
-                        drawStraight(hx, hy, 0, y0, "#22d3ee");
+                        drawStraight(hx, hy, 0, y0, "#E1CE9A");
                         // Right piece: east border → Auckland
-                        drawStraight(width, y0, ax, ay, "#22d3ee");
+                        drawStraight(width, y0, ax, ay, "#E1CE9A");
                       }
                     } else {
                       // k === +1
@@ -1035,9 +1044,9 @@
                         const t1 = (width - hx) / denom;
                         const y1 = hy + (ay - hy) * t1; // intersection Y at x=width
                         // Right piece: Havana → east border
-                        drawStraight(hx, hy, width, y1, "#22d3ee");
+                        drawStraight(hx, hy, width, y1, "#E1CE9A");
                         // Left piece: west border → Auckland
-                        drawStraight(0, y1, ax, ay, "#22d3ee");
+                        drawStraight(0, y1, ax, ay, "#E1CE9A");
                       }
                     }
                   }
@@ -1049,8 +1058,8 @@
               const [px1, py1] = projection(paris),
                 [mx1, my1] = projection(madrid),
                 [cx1, cy1] = projection(capetown);
-              drawSegment(px1, py1, mx1, my1, "#22d3ee");
-              drawSegment(cx1, cy1, px1, py1, "#22d3ee");
+              drawSegment(px1, py1, mx1, my1, "#E1CE9A");
+              drawSegment(cx1, cy1, px1, py1, "#E1CE9A");
               window.__markers = [];
               const inv0 = 1 / scale;
               cities.forEach((c, i) => {
@@ -1069,15 +1078,15 @@
                   cx: 0,
                   cy: 0,
                   r: 4,
-                  fill: i === 0 ? "#22d3ee" : "#3b82f6",
-                  stroke: "#0ea5e9",
+                  fill: i === 0 ? "#E1CE9A" : "#E1CE9A",
+                  stroke: "#E1CE9A",
                   "stroke-width": 1,
                   "pointer-events": "none",
                 });
                 const label = el("text", {
                   x: 6,
                   y: -6,
-                  fill: "#cbd5e1",
+                  fill: "#E1CE9A",
                   "font-size": "12px",
                   "text-anchor": "start",
                   "dominant-baseline": "ideographic",
@@ -1119,15 +1128,15 @@
                   cx: 0,
                   cy: 0,
                   r: 4,
-                  fill: "#22d3ee",
-                  stroke: "#0ea5e9",
+                  fill: "#E1CE9A",
+                  stroke: "#E1CE9A",
                   "stroke-width": 1,
                   "pointer-events": "none",
                 });
                 const pl = el("text", {
                   x: 6,
                   y: -6,
-                  fill: "#cbd5e1",
+                  fill: "#E1CE9A",
                   "font-size": "12px",
                   "text-anchor": "start",
                   "dominant-baseline": "ideographic",
