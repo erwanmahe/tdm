@@ -75,118 +75,118 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0020.jpg",
-    "src": "photos/train2kandy/mini_100_0020.jpg",
+    "href": "photos/orphanage/100_0020.jpg",
+    "src": "photos/orphanage/mini_100_0020.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0021.jpg",
-    "src": "photos/train2kandy/mini_100_0021.jpg",
+    "href": "photos/orphanage/100_0021.jpg",
+    "src": "photos/orphanage/mini_100_0021.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0022.jpg",
-    "src": "photos/train2kandy/mini_100_0022.jpg",
+    "href": "photos/orphanage/100_0022.jpg",
+    "src": "photos/orphanage/mini_100_0022.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0023.jpg",
-    "src": "photos/train2kandy/mini_100_0023.jpg",
+    "href": "photos/orphanage/100_0023.jpg",
+    "src": "photos/orphanage/mini_100_0023.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0024.jpg",
-    "src": "photos/train2kandy/mini_100_0024.jpg",
+    "href": "photos/orphanage/100_0024.jpg",
+    "src": "photos/orphanage/mini_100_0024.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0025.jpg",
-    "src": "photos/train2kandy/mini_100_0025.jpg",
+    "href": "photos/orphanage/100_0025.jpg",
+    "src": "photos/orphanage/mini_100_0025.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0026.jpg",
-    "src": "photos/train2kandy/mini_100_0026.jpg",
+    "href": "photos/orphanage/100_0026.jpg",
+    "src": "photos/orphanage/mini_100_0026.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0027.jpg",
-    "src": "photos/train2kandy/mini_100_0027.jpg",
+    "href": "photos/orphanage/100_0027.jpg",
+    "src": "photos/orphanage/mini_100_0027.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0028.jpg",
-    "src": "photos/train2kandy/mini_100_0028.jpg",
+    "href": "photos/orphanage/100_0028.jpg",
+    "src": "photos/orphanage/mini_100_0028.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0029.jpg",
-    "src": "photos/train2kandy/mini_100_0029.jpg",
+    "href": "photos/orphanage/100_0029.jpg",
+    "src": "photos/orphanage/mini_100_0029.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0030.jpg",
-    "src": "photos/train2kandy/mini_100_0030.jpg",
+    "href": "photos/orphanage/100_0030.jpg",
+    "src": "photos/orphanage/mini_100_0030.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0031.jpg",
-    "src": "photos/train2kandy/mini_100_0031.jpg",
+    "href": "photos/orphanage/100_0031.jpg",
+    "src": "photos/orphanage/mini_100_0031.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0032.jpg",
-    "src": "photos/train2kandy/mini_100_0032.jpg",
+    "href": "photos/orphanage/100_0032.jpg",
+    "src": "photos/orphanage/mini_100_0032.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0033.jpg",
-    "src": "photos/train2kandy/mini_100_0033.jpg",
+    "href": "photos/orphanage/100_0033.jpg",
+    "src": "photos/orphanage/mini_100_0033.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0034.jpg",
-    "src": "photos/train2kandy/mini_100_0034.jpg",
+    "href": "photos/orphanage/100_0034.jpg",
+    "src": "photos/orphanage/mini_100_0034.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0035.jpg",
-    "src": "photos/train2kandy/mini_100_0035.jpg",
+    "href": "photos/orphanage/100_0035.jpg",
+    "src": "photos/orphanage/mini_100_0035.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0036.jpg",
-    "src": "photos/train2kandy/mini_100_0036.jpg",
+    "href": "photos/orphanage/100_0036.jpg",
+    "src": "photos/orphanage/mini_100_0036.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0037.jpg",
-    "src": "photos/train2kandy/mini_100_0037.jpg",
+    "href": "photos/orphanage/100_0037.jpg",
+    "src": "photos/orphanage/mini_100_0037.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0038.jpg",
-    "src": "photos/train2kandy/mini_100_0038.jpg",
+    "href": "photos/orphanage/100_0038.jpg",
+    "src": "photos/orphanage/mini_100_0038.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0039.jpg",
-    "src": "photos/train2kandy/mini_100_0039.jpg",
+    "href": "photos/orphanage/100_0039.jpg",
+    "src": "photos/orphanage/100_0039.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0040.jpg",
-    "src": "photos/train2kandy/mini_100_0040.jpg",
+    "href": "photos/orphanage/100_0040.jpg",
+    "src": "photos/orphanage/mini_100_0040.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0041.jpg",
-    "src": "photos/train2kandy/mini_100_0041.jpg",
+    "href": "photos/orphanage/100_0041.jpg",
+    "src": "photos/orphanage/mini_100_0041.jpg",
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/100_0042.jpg",
-    "src": "photos/train2kandy/mini_100_0042.jpg",
+    "href": "photos/orphanage/100_0042.jpg",
+    "src": "photos/orphanage/mini_100_0042.jpg",
     "caption": ""
   },
   {
@@ -250,28 +250,8 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/train2kandy/orphanage/100_0038.jpg",
-    "src": "photos/train2kandy/orphanage/mini_100_0038.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/train2kandy/orphanage/100_0040.jpg",
-    "src": "photos/train2kandy/orphanage/mini_100_0040.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/train2kandy/orphanage/100_0041.jpg",
-    "src": "photos/train2kandy/orphanage/mini_100_0041.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/train2kandy/orphanage/100_0042.jpg",
-    "src": "photos/train2kandy/orphanage/mini_100_0042.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/train2kandy/orphanage/100_0044.jpg",
-    "src": "photos/train2kandy/orphanage/mini_100_0044.jpg",
+    "href": "photos/orphanage/100_0044.jpg",
+    "src": "photos/orphanage/mini_100_0044.jpg",
     "caption": ""
   }
   ]

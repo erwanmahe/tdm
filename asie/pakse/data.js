@@ -226,7 +226,7 @@ window.TDM_PAGE = {
   },
   {
     "href": "photos/trek/IMG_0362.jpg",
-    "src": "photos/trek/mini_IMG_0362.jpg",
+    "src": "photos/trek/IMG_0362.jpg",
     "caption": ""
   }
   ]
