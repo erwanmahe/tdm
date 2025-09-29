@@ -1,4 +1,4 @@
-// Per-page data for petite-vue. Works offline (file://) as plain JS.
+  // Per-page data for petite-vue. Works offline (file://) as plain JS.
 window.TDM_PAGE = {
   title: "Cuzco",
   resume: "Le Huayna Picchu",
@@ -483,6 +483,16 @@ window.TDM_PAGE = {
     "href": "photos/pisaq/pisaq9.jpg",
     "src": "photos/pisaq/mini_pisaq9.jpg",
     "caption": ""
+  },
+  {
+    "href": "photos/photo_0009.jpg",
+    "src": "photos/photo_0009.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0010.jpg",
+    "src": "photos/photo_0010.jpg",
+    "caption": ""
   }
-  ]
+]
 };

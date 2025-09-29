@@ -4,5 +4,10 @@ window.TDM_PAGE = {
   resume: "High-tech",
   backlinkHref: "../../index.html",
   gallery: [
+    {
+      "href": "photos/photo_0002.jpg",
+      "src": "photos/photo_0002.jpg",
+      "caption": ""
+    }
   ]
 };

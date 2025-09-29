@@ -68,6 +68,26 @@ window.TDM_PAGE = {
     "href": "photos/vw.jpg",
     "src": "photos/mini_vw.jpg",
     "caption": ""
+  },
+  {
+    "href": "photos/photo_0022.jpg",
+    "src": "photos/photo_0022.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0023.jpg",
+    "src": "photos/photo_0023.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0024.jpg",
+    "src": "photos/photo_0024.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0025.jpg",
+    "src": "photos/photo_0025.jpg",
+    "caption": ""
   }
   ]
 };

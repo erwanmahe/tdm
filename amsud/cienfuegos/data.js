@@ -4,5 +4,10 @@ window.TDM_PAGE = {
   resume: "la riviera cubana",
   backlinkHref: "../../index.html",
   gallery: [
+    {
+      "href": "photos/photo_0008.jpg",
+      "src": "photos/photo_0008.jpg",
+      "caption": ""
+    }
   ]
 };
