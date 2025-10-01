@@ -4,5 +4,10 @@ window.TDM_PAGE = {
   resume: "Dune",
   backlinkHref: "../../index.html",
   gallery: [
+    {
+      "href": "photos/photo_0021.jpg",
+      "src": "photos/photo_0021.jpg",
+      "caption": ""
+    }
   ]
 };

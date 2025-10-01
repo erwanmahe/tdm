@@ -21,12 +21,12 @@ window.TDM_PAGE = {
   },
   {
     "href": "photos/bus2donthong/IMG_0367.jpg",
-    "src": "photos/bus2donthong/mini_IMG_0367.jpg",
+    "src": "photos/bus2donthong/IMG_0367.jpg",
     "caption": ""
   },
   {
     "href": "photos/bus2donthong/IMG_0369.jpg",
-    "src": "photos/bus2donthong/mini_IMG_0369.jpg",
+    "src": "photos/bus2donthong/IMG_0369.jpg",
     "caption": ""
   },
   {

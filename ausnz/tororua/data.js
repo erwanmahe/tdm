@@ -4,5 +4,15 @@ window.TDM_PAGE = {
   resume: "Pink Floyd",
   backlinkHref: "../../index.html",
   gallery: [
+    {
+      "href": "photos/photo_0070.jpg",
+      "src": "photos/photo_0070.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/photo_0071.jpg",
+      "src": "photos/photo_0071.jpg",
+      "caption": ""
+    }
   ]
 };

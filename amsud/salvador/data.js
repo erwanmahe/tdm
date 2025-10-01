@@ -43,6 +43,31 @@ window.TDM_PAGE = {
     "href": "photos/pelourinho.jpg",
     "src": "photos/mini_pelourinho.jpg",
     "caption": ""
+  },
+  {
+    "href": "photos/photo_0059.jpg",
+    "src": "photos/photo_0059.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0060.jpg",
+    "src": "photos/photo_0060.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0061.jpg",
+    "src": "photos/photo_0061.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0062.jpg",
+    "src": "photos/photo_0062.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/photo_0063.jpg",
+    "src": "photos/photo_0063.jpg",
+    "caption": ""
   }
-  ]
+]
 };
