@@ -23,6 +23,11 @@ window.TDM_PAGE = {
       "href": "photos/photo_0029.jpg",
       "src": "photos/photo_0029.jpg",
       "caption": ""
+    },
+    {
+      "href": "photos/1.jpg",
+      "src": "photos/1.jpg",
+      "caption": ""
     }
   ]
 };

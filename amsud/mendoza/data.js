@@ -4,5 +4,10 @@ window.TDM_PAGE = {
   resume: "Vacaciones",
   backlinkHref: "../../index.html",
   gallery: [
+    {
+      "href": "photos/1.jpg",
+      "src": "photos/1.jpg",
+      "caption": ""
+    }
   ]
 };

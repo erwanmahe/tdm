@@ -10,6 +10,16 @@ window.TDM_PAGE = {
       "caption": ""
     },
     {
+      "href": "photos/1.jpg",
+      "src": "photos/1.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/Santiago2.jpg",
+      "src": "photos/Santiago2.jpg",
+      "caption": ""
+    },
+    {
       "href": "photos/valparaiso/Valparaiso_1.jpg",
       "src": "photos/valparaiso/Valparaiso_1.jpg",
       "caption": ""
@@ -17,6 +27,11 @@ window.TDM_PAGE = {
     {
       "href": "photos/valparaiso/Valparaiso_2.jpg",
       "src": "photos/valparaiso/Valparaiso_2.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/valparaiso/Valparaiso_3.jpg",
+      "src": "photos/valparaiso/Valparaiso_3.jpg",
       "caption": ""
     }
   ]

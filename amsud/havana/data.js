@@ -10,18 +10,28 @@ window.TDM_PAGE = {
       "caption": ""
     },
     {
-      "href": "photos/photo_0012.jpg",
-      "src": "photos/photo_0012.jpg",
-      "caption": ""
-    },
-    {
       "href": "photos/photo_0013.jpg",
       "src": "photos/photo_0013.jpg",
       "caption": ""
     },
     {
-      "href": "photos/photo_0014.jpg",
-      "src": "photos/photo_0014.jpg",
+      "href": "photos/capitolio/photo_0014.jpg",
+      "src": "photos/capitolio/photo_0014.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/capitolio/1.jpg",
+      "src": "photos/capitolio/1.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/capitolio/2.jpg",
+      "src": "photos/capitolio/2.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/capitolio/3.jpg",
+      "src": "photos/capitolio/3.jpg",
       "caption": ""
     },
     {
@@ -32,11 +42,6 @@ window.TDM_PAGE = {
     {
       "href": "photos/photo_0016.jpg",
       "src": "photos/photo_0016.jpg",
-      "caption": ""
-    },
-    {
-      "href": "photos/photo_0017.jpg",
-      "src": "photos/photo_0017.jpg",
       "caption": ""
     },
     {
@@ -54,5 +59,35 @@ window.TDM_PAGE = {
       "src": "photos/photo_0020.jpg",
       "caption": ""
     },
+    {
+      "href": "photos/1.jpg",
+      "src": "photos/1.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/2.jpg",
+      "src": "photos/2.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/3.jpg",
+      "src": "photos/3.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/4.jpg",
+      "src": "photos/4.jpg",
+      "caption": "réparation"
+    },
+    {
+      "href": "photos/5.jpg",
+      "src": "photos/5.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/6.jpg",
+      "src": "photos/6.jpg",
+      "caption": ""
+    }
   ]
 };
