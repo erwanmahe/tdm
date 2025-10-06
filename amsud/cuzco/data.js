@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Cuzco",
   resume: "Le Huayna Picchu",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-cuzco",
   gallery: [
   {
     "href": "photos/ceremonie_militaro_religieuse_2.jpg",

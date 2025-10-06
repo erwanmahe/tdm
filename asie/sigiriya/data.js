@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Sigiriya",
   resume: "Le rocher",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-sigiriya",
   gallery: [
   {
     "href": "photos/100_0098.jpg",

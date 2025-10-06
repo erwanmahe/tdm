@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Madrid",
   resume: "Première étape de mon voyage. Il fait froid",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#europe-madrid",
   gallery: [
   {
     "href": "photos/metropolis.jpg",

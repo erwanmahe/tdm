@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Katmandou",
   resume: "l'Himalaya",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-katmandou",
   gallery: [
   ]
 };

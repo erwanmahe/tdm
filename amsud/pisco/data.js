@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Pisco",
   resume: "Les Îles Ballestas",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-pisco",
   gallery: [
   {
     "href": "photos/ballestas/bebescormorans.jpg",

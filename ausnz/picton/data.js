@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Picton",
   resume: "froid",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-picton",
   gallery: [
     {
       "href": "photos/photo_0026.jpg",

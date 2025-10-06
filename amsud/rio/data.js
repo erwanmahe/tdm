@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Rio",
   resume: "Samba",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-rio",
   gallery: [
     {
       "href": "photos/photo_0030.jpg",

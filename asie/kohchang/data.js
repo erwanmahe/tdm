@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Koh Chang",
   resume: "Le paradis",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-kohchang",
   gallery: [
   {
     "href": "photos/IMG_0061.jpg",

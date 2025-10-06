@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Sydney",
   resume: "jet lag",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-sydney",
   gallery: [
   ]
 };

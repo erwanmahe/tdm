@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Madras/Chennai",
   resume: "Chaud et dense",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-chennai",
   gallery: [
   ]
 };

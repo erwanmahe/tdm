@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Bombay/Mumbay",
   resume: "Victorienne",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-mumbay",
   gallery: [
   ]
 };

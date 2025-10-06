@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Olinda",
   resume: "e linda",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-olinda",
   gallery: [
   ]
 };

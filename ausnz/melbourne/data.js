@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Melbourne",
   resume: "L'Australie au pas de course",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-melbourne",
   gallery: [
   ]
 };

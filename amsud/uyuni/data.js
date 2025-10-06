@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Uyuni",
   resume: "El buen mochilero",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-uyuni",
   gallery: [
   {
     "href": "photos/mochilero.jpg",

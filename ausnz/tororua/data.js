@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Tororua",
   resume: "Pink Floyd",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-tororua",
   gallery: [
     {
       "href": "photos/photo_0070.jpg",

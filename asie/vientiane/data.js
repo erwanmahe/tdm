@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Vientiane",
   resume: "La capitale de province",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-vientiane",
   gallery: [
   {
     "href": "photos/bus2donthong/IMG_0363.jpg",

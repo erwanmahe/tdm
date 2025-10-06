@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Mombasa",
   resume: "Scotché",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#afrique-mombasa",
   gallery: [
   ]
 };

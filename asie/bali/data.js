@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Bali",
   resume: "Tir groupé : Kuta-Ubud-Kuta",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-bali",
   gallery: [
   ]
 };

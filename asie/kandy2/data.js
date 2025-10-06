@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Kandy (bis)",
   resume: "Visa pour l'Inde",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-kandy2",
   gallery: [
   {
     "href": "photos/100_0096.jpg",

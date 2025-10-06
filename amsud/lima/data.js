@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Lima",
   resume: "Enfin l'Amérique du Sud !",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-lima",
   gallery: [
   {
     "href": "photos/banque.jpg",

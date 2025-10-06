@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Santiago du Chili",
   resume: "La semaine sainte",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-santiago",
   gallery: [
     {
       "href": "photos/Santiago.jpg",

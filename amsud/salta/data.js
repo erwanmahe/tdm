@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Salta",
   resume: "Golpeado, robo",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-salta",
   gallery: [
   ]
 };

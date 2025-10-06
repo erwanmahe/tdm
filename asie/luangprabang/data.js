@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Luang Prabang",
   resume: "Bouddhisme et colonialisme",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-luangprabang",
   gallery: [
   {
     "href": "photos/bus2vientiane/IMG_0269.jpg",

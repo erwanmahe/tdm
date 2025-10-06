@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Phnom Penh",
   resume: "le retour à la civilisation",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-phnompenh",
   gallery: [
   {
     "href": "photos/IMG_0049.jpg",

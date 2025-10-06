@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Bangkok",
   resume: "",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-bangkok2",
   gallery: [
   {
     "href": "photos/kanchanaburi/atelierbois02.jpg",

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Auckland",
   resume: "High-tech",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-auckland",
   gallery: [
     {
       "href": "photos/photo_0002.jpg",

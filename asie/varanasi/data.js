@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Benares/Varanasi",
   resume: "Ganga",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-varanasi",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Darwin",
   resume: "chaud",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-darwin",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Don Khong",
   resume: "Les 4000 îles",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-donkhong",
   gallery: [
   {
     "href": "photos/bateau/IMG_0394.jpg",

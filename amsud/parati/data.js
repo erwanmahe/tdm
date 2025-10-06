@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Parati",
   resume: "La plage",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-parati",
   gallery: [
   {
     "href": "photos/bateau/a_bord.jpg",

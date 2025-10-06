@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "La Havana",
   resume: "de Cuba",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-havana",
   gallery: [
     {
       "href": "photos/photo_0011.jpg",

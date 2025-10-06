@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Salvador",
   resume: "De Bahia, Carnaval",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-salvador",
   gallery: [
   {
     "href": "photos/campogrande.jpg",

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Tiwi Beach",
   resume: "Le paradis",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#afrique-tiwi",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Colombo",
   resume: "fermée la nuit",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-colombo",
   gallery: [
   {
     "href": "photos/100_0006.jpg",

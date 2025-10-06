@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Trincomalee",
   resume: "Les Tamouls",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-trincomalee",
   gallery: [
   {
     "href": "photos/101_0124.jpg",

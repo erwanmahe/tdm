@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Zanzibar",
   resume: "",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#afrique-zanzibar",
   gallery: [
   ]
 };

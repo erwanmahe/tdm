@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Kandy (ter)",
   resume: "Ça commence à me rappeler une chanson",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-kandy3",
   gallery: [
   ]
 };

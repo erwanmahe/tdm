@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Hong Kong",
   resume: "Mégalopole",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-hongkong",
   gallery: [
   ]
 };

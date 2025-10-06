@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Buenos Aires",
   resume: "San Telmo",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-buenosaires",
   gallery: [
     {
       "href": "photos/photo_0005.jpg",

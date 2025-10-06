@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Angkor",
   resume: "les vieilles pierres",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-angkor",
   gallery: [
   {
     "href": "photos/img_0308.jpg",

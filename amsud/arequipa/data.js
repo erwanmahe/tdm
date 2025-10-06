@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Arequipa",
   resume: "La fiesta et les potes",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-arequipa",
   gallery: [
   {
     "href": "photos/delaterrasse.jpg",

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "São Paulo",
   resume: "L'isolement linguistique",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-saopaulo",
   gallery: [
   {
     "href": "photos/policia.jpg",

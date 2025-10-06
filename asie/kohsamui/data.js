@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Koh Samui",
   resume: "Les îles, enfin",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-kohsamui",
   gallery: [
   {
     "href": "photos/bateau2.jpg",

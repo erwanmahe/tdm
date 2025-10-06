@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "La Paz",
   resume: "La Pause La Paz",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-lapaz",
   gallery: [
   ]
 };

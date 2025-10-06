@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Goa",
   resume: "Calme et volupte",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-goa",
   gallery: [
   ]
 };

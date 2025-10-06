@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Nurawa Eliya",
   resume: "Little England",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-nuwaraeliya",
   gallery: [
   {
     "href": "photos/100_0027.jpg",

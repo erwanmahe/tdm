@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Chiang Rai",
   resume: "La traversée",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-chiangrai",
   gallery: [
   {
     "href": "photos/bateau/IMG_0132.jpg",

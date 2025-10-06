@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Chiang Mai",
   resume: "Les éléphants",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-chiangmai",
   gallery: [
   {
     "href": "photos/trek/trek_0017.jpg",

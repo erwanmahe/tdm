@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Rio",
   resume: "Le retour",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-rio2",
   gallery: [
   {
     "href": "photos/bota/corcovado.jpg",

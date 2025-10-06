@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Pakse",
   resume: "Les chutes d'eau",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-pakse",
   gallery: [
   {
     "href": "photos/IMG_0298.jpg",

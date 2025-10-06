@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Cairns",
   resume: "the great reef barrier",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#ausnz-cairns",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Natal",
   resume: "Dune",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-natal",
   gallery: [
     {
       "href": "photos/photo_0021.jpg",

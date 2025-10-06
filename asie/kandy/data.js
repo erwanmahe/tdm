@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Kandy",
   resume: "Non je ne vais pas la faire",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-kandy",
   gallery: [
   {
     "href": "photos/100_0073.jpg",

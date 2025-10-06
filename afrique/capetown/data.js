@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Cape Town",
   resume: "",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#afrique-capetown",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Bangkok",
   resume: "La jungle urbaine",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-bangkok",
   gallery: [
   {
     "href": "photos/bateau/ph_thai 113.jpg",

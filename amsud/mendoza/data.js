@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Mendoza",
   resume: "Vacaciones",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-mendoza",
   gallery: [
   ]
 };

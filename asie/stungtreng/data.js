@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Stung Treng",
   resume: "sauvé par Lee San",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-stungtreng",
   gallery: [
   {
     "href": "photos/kratie/applebook.jpg",

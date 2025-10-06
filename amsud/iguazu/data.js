@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Foz d'Iguazu",
   resume: "Las cataratas",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#amsud-iguazu",
   gallery: [
   {
     "href": "photos/chutes.jpg",

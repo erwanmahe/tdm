@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Nairobi",
   resume: "Safari",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#afrique-nairobi",
   gallery: [
   ]
 };

@@ -2,7 +2,7 @@
 window.TDM_PAGE = {
   title: "Bangalore",
   resume: "Comme en Europe",
-  backlinkHref: "../../index.html",
+  backlinkHref: "../../index.html#asie-bangalore",
   gallery: [
   ]
 };
