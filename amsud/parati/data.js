@@ -20,11 +20,6 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/bateau/eglise.jpg",
-    "src": "photos/bateau/mini_eglise.jpg",
-    "caption": ""
-  },
-  {
     "href": "photos/bateau/ile2.jpg",
     "src": "photos/bateau/mini_ile2.jpg",
     "caption": ""
@@ -75,8 +70,8 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/photo_0023.jpg",
-    "src": "photos/photo_0023.jpg",
+    "href": "photos/bateau/photo_0023.jpg",
+    "src": "photos/bateau/photo_0023.jpg",
     "caption": ""
   },
   {
@@ -85,8 +80,28 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/photo_0025.jpg",
-    "src": "photos/photo_0025.jpg",
+    "href": "photos/bateau/photo_0025.jpg",
+    "src": "photos/bateau/photo_0025.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/1.jpg",
+    "src": "photos/1.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/2.jpg",
+    "src": "photos/2.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/3.jpg",
+    "src": "photos/3.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/4.jpg",
+    "src": "photos/4.jpg",
     "caption": ""
   }
   ]

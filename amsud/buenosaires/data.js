@@ -18,6 +18,36 @@ window.TDM_PAGE = {
       "href": "photos/photo_0007.jpg",
       "src": "photos/photo_0007.jpg",
       "caption": ""
+    },
+    {
+      "href": "photos/1.jpg",
+      "src": "photos/1.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/2.jpg",
+      "src": "photos/2.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/3.jpg",
+      "src": "photos/3.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/4.jpg",
+      "src": "photos/4.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/5.jpg",
+      "src": "photos/5.jpg",
+      "caption": ""
+    },
+    {
+      "href": "photos/6.jpg",
+      "src": "photos/6.jpg",
+      "caption": ""
     }
   ]
 };
