@@ -17,11 +17,26 @@ window.TDM_PAGE = {
   {
     "href": "photos/machin.jpg",
     "src": "photos/mini_machin.jpg",
-    "caption": ""
+    "caption": "Coatis"
   },
   {
     "href": "photos/machins.jpg",
     "src": "photos/mini_machins.jpg",
+    "caption": "Coatis"
+  },
+  {
+    "href": "photos/chutes2.jpg",
+    "src": "photos/chutes2.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/barrage_itaipu/1.jpg",
+    "src": "photos/barrage_itaipu/1.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/barrage_itaipu/2.jpg",
+    "src": "photos/barrage_itaipu/2.jpg",
     "caption": ""
   },
   {
@@ -32,6 +47,11 @@ window.TDM_PAGE = {
   {
     "href": "photos/parque/ara3.jpg",
     "src": "photos/parque/mini_ara3.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/parque/flamands.jpg",
+    "src": "photos/parque/flamands.jpg",
     "caption": ""
   },
   {
@@ -62,11 +82,6 @@ window.TDM_PAGE = {
   {
     "href": "photos/parque/casoar.jpg",
     "src": "photos/parque/mini_casoar.jpg",
-    "caption": ""
-  },
-  {
-    "href": "photos/parque/flamand.jpg",
-    "src": "photos/parque/mini_flamand.jpg",
     "caption": ""
   },
   {

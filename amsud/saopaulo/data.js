@@ -15,13 +15,18 @@ window.TDM_PAGE = {
     "caption": ""
   },
   {
-    "href": "photos/theatre.jpg",
-    "src": "photos/mini_theatre.jpg",
+    "href": "photos/1.jpg",
+    "src": "photos/1.jpg",
     "caption": ""
   },
   {
-    "href": "photos/vieuxbat.jpg",
-    "src": "photos/mini_vieuxbat.jpg",
+    "href": "photos/2.jpg",
+    "src": "photos/2.jpg",
+    "caption": ""
+  },
+  {
+    "href": "photos/3.jpg",
+    "src": "photos/3.jpg",
     "caption": ""
   }
   ]

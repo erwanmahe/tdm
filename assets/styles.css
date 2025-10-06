@@ -122,6 +122,14 @@ body {
   width: 100%;
   font-weight: 400;
 }
+.comment {
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 0 0 0 0;
+  font-style: italic;
+  width: 100%;
+  font-weight: 200;
+}
 .titre {
   font-size: 36px;
   font-weight: 800;
